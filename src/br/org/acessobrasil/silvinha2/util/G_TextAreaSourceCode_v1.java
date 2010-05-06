@@ -36,13 +36,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import javax.swing.BorderFactory;
 import javax.swing.JMenuItem;
-import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextPane;
 import javax.swing.border.Border;
@@ -98,7 +96,7 @@ public abstract class G_TextAreaSourceCode_v1 extends JScrollPane implements Key
 
 	MutableAttributeSet estiloLineCount;
 
-	private JPanel painel;
+	//private JPanel painel;
 
 	private int tipoFormatacao;
 
@@ -209,6 +207,7 @@ public abstract class G_TextAreaSourceCode_v1 extends JScrollPane implements Key
 	/**
 	 * Faz o lay out com o contador de linhas
 	 */
+	@SuppressWarnings("unused")
 	private void comLineCount() {
 		textPane = new JTextPane() {
 			/**
@@ -657,6 +656,7 @@ public abstract class G_TextAreaSourceCode_v1 extends JScrollPane implements Key
 	/**
 	 * Sincronizar as linhas
 	 */
+	@SuppressWarnings("unused")
 	private void sincLine() {
 		if (estiloLineCount == null)
 			return;
