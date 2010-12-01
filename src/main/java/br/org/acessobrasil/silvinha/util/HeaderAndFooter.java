@@ -56,8 +56,8 @@ public class HeaderAndFooter extends PdfPageEventHelper {
             cell.setVerticalAlignment(PdfPCell.ALIGN_CENTER);
             cell.setBorder(Rectangle.BOTTOM);
             head.addCell(cell);
-            head.setTotalWidth(page.width() - document.leftMargin() - document.rightMargin());
-            head.writeSelectedRows(0, -1, document.leftMargin(), page.height() - document.topMargin() + head.getTotalHeight(),
+            head.setTotalWidth(page.getWidth() - document.leftMargin() - document.rightMargin());
+            head.writeSelectedRows(0, -1, document.leftMargin(), page.getHeight() - document.topMargin() + head.getTotalHeight(),
                 writer.getDirectContent());
             PdfPTable foot = new PdfPTable(1);
             cell = new PdfPCell(new Paragraph(String.valueOf(document.getPageNumber())));
@@ -65,7 +65,7 @@ public class HeaderAndFooter extends PdfPageEventHelper {
             cell.setVerticalAlignment(PdfPCell.ALIGN_CENTER);
             cell.setBorder(Rectangle.TOP);
             foot.addCell(cell);
-            foot.setTotalWidth(page.width() - document.leftMargin() - document.rightMargin());
+            foot.setTotalWidth(page.getWidth() - document.leftMargin() - document.rightMargin());
             foot.writeSelectedRows(0, -1, document.leftMargin(), document.bottomMargin(),
                 writer.getDirectContent());
         }

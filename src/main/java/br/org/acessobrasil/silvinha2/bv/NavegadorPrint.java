@@ -815,7 +815,7 @@ public class NavegadorPrint implements MouseListener {
 			public void show(WindowEvent event) {
 				Browser browser = (Browser) event.widget;
 				final Shell shell = browser.getShell();
-				/* popup blocker - ignore windows with no style */
+				/* popup blocker - ignore windows with no style 
 				if (!event.addressBar && !event.menuBar && !event.statusBar && !event.toolBar) {
 					//System.out.println("Popup blocked.");
 					event.display.asyncExec(new Runnable() {
@@ -824,7 +824,7 @@ public class NavegadorPrint implements MouseListener {
 						}
 					});
 					return;
-				}
+				}*/
 				if (event.location != null)
 					shell.setLocation(event.location);
 				if (event.size != null) {
