@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="help.css" rel="stylesheet" type="text/css" />
+<link href="SyntaxHighlighter.css" rel="stylesheet"
+type="text/css" />
+</head>
+<body>
+<p><img src="teste.jpg" width="270" height="50"
+alt="Saiba Mais" /></p>
+
+<p><strong>Recomenda&ccedil;&atilde;o 2.11 &ndash;</strong> Sempre
+que necess&aacute;rio, divida grandes blocos de
+informa&ccedil;&atilde;o em <strong>&nbsp;</strong>grupos mais
+f&aacute;ceis de gerenciar. As op&ccedil;&otilde;es de menu devem
+ser dispostas de forma&nbsp; consistente na mesma ordem relativa no
+grupo de op&ccedil;&otilde;es. Se as op&ccedil;&otilde;es num
+painel de menu&nbsp; est&atilde;o ordenadas &ldquo;arquivo, editar,
+inserir, imprimir&rdquo;, essas op&ccedil;&otilde;es devem aparecer
+naquela&nbsp; mesma ordem quando aquele grupo for apresentado
+novamente (ou quando um outro painel&nbsp; contendo aquele mesmo
+grupo de op&ccedil;&otilde;es seja apresentado).&nbsp;</p>
+
+<p>Em HTML, use &ldquo;optgroup&rdquo; para agrupar os elementos
+&ldquo;option&rdquo; dentro de um elemento de lista&nbsp;
+&ldquo;select&rdquo;; agrupe os controles de formul&aacute;rio com
+&ldquo;fieldset&rdquo; e &ldquo;legend&rdquo;. Use listas sempre
+que seja&nbsp; apropriado. Use cabe&ccedil;alhos para estruturar
+documentos, etc.&nbsp;</p>
+
+<p>Uma lista do tipo &ldquo;form select&rdquo;com sete elementos
+ter&aacute; o seguinte aspecto (i.e, uma lista&nbsp; estruturada
+simples):</p>
+
+<p><img src="optgroup.jpg" alt="optgroup" width="213" height="240" /></p>
+
+<p style="clear:both"><strong>No c&oacute;digo html:</strong></p>
+
+<div class="dp-highlighter">
+<ol class="dp-j" start="1">
+<li class="alt">&lt;select name="Servidores"&gt;</li>
+
+<li class="">&lt;optgroup label="Portas e Servidores"&gt;</li>
+
+<li class="alt">&lt;optgroup label="Servidor 3"&gt;</li>
+
+<li class="">&lt;option label="3.7.1" value="sp3_3.7.1"&gt;
+Servidor 3 na porta 3.7.1</li>
+
+<li class="alt">&lt;option label="3.7" value="sp3_3.7"&gt; Servidor
+3 na porta 3.7</li>
+
+<li class="">&lt;option label="3.5" value="sp3_3.5"&gt; Servidor 3
+na porta 3.5</li>
+
+<li class="alt">&lt;/optgroup&gt;</li>
+
+<li class="">&lt;optgroup label="Servidor 2"&gt;</li>
+
+<li class="alt">&lt;option label="3.7" value="sp2_3.7"&gt;Servidor
+2 na porta 3.7</li>
+
+<li class="">&lt;option label="3.5" value="sp2_3.5"&gt; Servidor 2
+na porta 3.5</li>
+
+<li class="alt">&lt;/optgroup&gt;</li>
+
+<li class="">&lt;/optgroup&gt;</li>
+
+<li class="alt">&lt;optgroup label="Linux"&gt;</li>
+
+<li class="">&lt;optgroup label="Servidor 1"&gt;</li>
+
+<li class="alt">&lt;option label="3.7x" value="sp_3.7x"&gt;
+Servidor 1 na porta 3.7x</li>
+
+<li class="">&lt;option label="3.5x" value="sp_3.5x"&gt; Servidor 1
+na porta 3.5x</li>
+
+<li class="alt">&lt;/optgroup&gt;</li>
+
+<li class="">&lt;/optgroup&gt;</li>
+
+<li class="alt">&lt;/select&gt;</li>
+</ol>
+</div>
+
+<p>O elemento &ldquo;fieldset&rdquo; &eacute; utilizado para
+agrupar controles de formul&aacute;rio relacionados de
+maneira&nbsp; l&oacute;gica. Os dispositivos de apoio ou agentes
+devem fornecer sentido aos formul&aacute;rios complexos&nbsp;
+atrav&eacute;s de navega&ccedil;&atilde;o apropriada dentro do
+grupo ou grupos. Um navegador gr&aacute;fico deve&nbsp; mostrar
+esta rela&ccedil;&atilde;o atrav&eacute;s de uma borda em volta dos
+elementos relacionados.&nbsp; Ao associar o atributo
+&ldquo;legend&rdquo; de forma significante para cada grupo
+&ldquo;fieldset&rdquo;, o autor fornece&nbsp; uma legenda que
+explica claramente do prop&oacute;sito ou natureza dos
+agrupamentos.</p>
+
+<p> Os agentes de usu&aacute;rio que suportem o &ldquo;legend&rdquo;
+ser&atilde;o capazes de tornar essa informa&ccedil;&atilde;o
+dispon&iacute;vel para &nbsp;quem deseja. Alguns navegadores
+gr&aacute;ficos atuais mostram a legenda como texto que surge&nbsp;
+num espa&ccedil;o circunscrito por um borda pelo elemento
+&ldquo;fieldset&rdquo;.&nbsp;</p>
+
+<div class="caixa2">
+<fieldset><legend>Selecione sua op&ccedil;&atilde;o</legend> 
+
+<fieldset><legend>Bicicleta /N&uacute;mero de
+marchas</legend><br />
+ <input type="radio" name="marchas" value="8m" /> 
+ 18 marchas<br />
+ <input type="radio" name="marchas" value="12m" /> 
+ 21 marchas<br />
+ <input type="radio" name="marchas" value="18m" /> 
+ 24
+marchas
+</fieldset>
+</fieldset>
+</div>
+
+<p style="clear:both">&nbsp;</p>
+
+<p style="clear:both"><strong>No c&oacute;digo html:</strong></p>
+
+<br />
+<div class="dp-highlighter">
+<ol class="dp-j" start="1">
+<li class="alt">&lt;fieldset&gt;</li>
+
+<li class=""><span class="alt">&lt;legend&gt; Selecione sua
+op&ccedil;&atilde;o &lt;/legend&gt;</span></li>
+
+<li class="alt">&lt;fieldset&gt;</li>
+
+<li class="">&lt;legend&gt;Bicicleta /N&uacute;mero de
+marchas&lt;/legend&gt;&lt;br&gt;</li>
+
+<li class="alt">&lt;input type="radio" name="marchas"
+value="18m"&gt; 8 marchas &lt;br&gt;</li>
+
+<li class="">&lt;input type="radio" name="marchas" value="21m"&gt;
+12 marchas&lt;br&gt;</li>
+
+<li class="alt">&lt;input type="radio" name="marchas"
+value="24m"&gt; 18 marchas</li>
+
+<li class="">&lt;/fieldset&gt;</li>
+
+<li class="alt">&lt;/fieldset&gt;</li>
+</ol>
+</div>
+</body>
+</html>

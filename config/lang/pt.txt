@@ -1,0 +1,218 @@
+# Arquivo de Configurações de Internacionalização
+# Idioma: Português - Brasil
+# Criação: 29/11/05 - 16:35
+# Autor: Danniel Nascimento
+
+IDIOMA=Português
+NOME_ARQUIVO=pt.txt
+LANG=pt
+
+# Erros
+SERIAL_ERRADO=O número serial está errado
+SPLASH_ERRADO=Não é possivel visualizar a Splah Screen
+ERRO_1=FALHA NA INICIALIZAÇÃO DO BANCO DE DADOS.\nPOR FAVOR, REINICIE O PROGRAMA.
+ERRO_2=Selecione ao menos uma Prioridade!
+ERRO_3=Preencha o Campo URL
+ERRO_4=Verifique o preenchimento do Campo URL
+ERRO_5=Não foi possível conectar ao site. \nTente novamente mais tarde ou verifique a URL.
+ERRO_6=Chave de Segurança Inválida
+ERRO_7=Arquivo Inexistente
+ERRO_8=Arquivo Inválido
+ERRO_9=Falha na Abertura do Arquivo
+ERRO_10=Abertura cancelada pelo Usuário
+ERRO_11=Falha na gravação do arquivo
+ERRO_12=Usuário ou Senha Inválidos
+ERRO_13=Erro ao Autenticar o Usuário
+ERRO_14=Não foi possível criar os arquivos de relatório. \nVerifique se o disco não está cheio ou se você possui\npermissão para gravação.
+ERRO_15=Erro ao enviar o e-mail
+ERRO_16=Nenhum Idioma Disponível
+ERRO_17=O site selecionado é muito grande para ser avaliado.\nApós a consulta da Avaliação efetuada, será possível continuar\na partir do ponto atual.\nNeste caso, sugerimos salvar a Avaliação atual.
+ERRO_18=CNPJ inválido para esta versão do programa.
+
+#Dialogos
+DIALOG_1=Dados gravados/alterados com sucesso!
+DIALOG_2=O cadastramento dos Dados é obrigatório!
+DIALOG_3=Senha Solicitada Pelo Servidor
+DIALOG_4=BUSCANDO ATUALIZAÇÕES NO SERVIDOR.
+DIALOG_5=NÃO HÁ ATUALIZAÇÕES NO MOMENTO!
+DIALOG_6=Selecione [Salvar Resumo] para gravar apenas o resumo,\n[Salvar Relatório Completo] para gravar todo o relatório ou\n[Cancelar] para voltar ao menu anterior.
+DIALOG_7=Gravação Cancelada Pelo Usuário.
+DIALOG_8=Arquivo gravado com sucesso!
+DIALOG_9=Arquivo existente.\nDeseja sobrescrever o arquivo?
+DIALOG_10=Avaliação Interrompida
+DIALOG_11=Avaliando:
+DIALOG_12=Buscando Links da Página:
+DIALOG_13=Avaliação Interrompida pelo Usuário
+DIALOG_14=Iniciando Avaliação
+DIALOG_15=Selecione o Idioma
+DIALOG_16=Selecione [Salvar PDF] para gravar o arquivo ou\n[Cancelar] para voltar ao menu anterior.
+
+# Labels
+ADMIN_CAD=Administrador
+AVALIADOR_CAD=Avaliador
+USUARIO_CAD=Usuário
+REL_ADM_CAD=E-mail
+EMAIL_CAD=Servidor SMTP
+ERROS_SWT=Erros
+AVISOS_SWT=Avisos
+AVISOS_ERROS_SWT=Erros/avisos
+DIARIO_SWT=Diario
+SEMANAL_SWT=Semanal
+MENSAL_SWT=Mensal
+QUINZE_SWT=Quinzenal
+HORA_CAD=Hora
+GRAVAR_LBL=Salvar
+TITULO_WIN=Silvinha - Avaliador de Acessibilidade na Web
+ARQ_MNU=Arquivo
+SAIR_MNU=Sair
+EXEC_MNU=Execute
+CONF_MNU=Configurações
+HELP_MNU=Ajuda
+ABOUT_MNU=Sobre
+INSTITU_LBL=Estabelecimento
+ENDERE_LBL=Endereço
+TEL_LBL=Telefone
+SERIAL_LBL=Serial de Execução
+EXECUTEAGORA_MNU=Execute Agora
+LOGIN_NOME_LBL=Usuário:
+LOGIN_PASS_LBL=Senha:
+LBL_CANCELAR=Cancelar
+
+LBL_AVISO=Aviso
+
+LBL_ARQUIVO=Endereço:
+BORDER_LBL_LOCAL=Endereço Local
+LBL_ERRO=Erro
+LBL_SALVAR=Salvar
+LBL_VOLTAR=Voltar
+LBL_CORRIGIR=Corrigir
+LBL_CNPJ=CNPJ
+LBL_CHAVE=Chave
+LBL_NIVEL=Nível
+LBL_URL=URL: 
+LBL_PRIORIDADE1=PRIORIDADE 1
+LBL_PRIORIDADE2=PRIORIDADE 2
+LBL_PRIORIDADE3=PRIORIDADE 3
+LBL_ERROS_P1=Erros Prioridade 1
+LBL_ERROS_P2=Erros Prioridade 2
+LBL_ERROS_P3=Erros Prioridade 3
+LBL_AVISOS_P1=Avisos Prioridade 1
+LBL_AVISOS_P2=Avisos Prioridade 2
+LBL_AVISOS_P3=Avisos Prioridade 3
+LBL_CODIGO_FONTE=Código Fonte
+LBL_SELECIONA_LINHA=Selecione a Linha
+LBL_SALVAR_AVALIACAO=Salvar Avaliação
+LBL_DESCRICAO=Descrição
+LBL_BORDER_DESC_INPUT=Digite abaixo a correção e clique em corrigir ou clique em voltar
+SALVAR_MNU=Salvar
+MNU_PDF=Exportar PDF
+ABRIR_MNU=Abrir
+BORDER_LBL_TIPOAVAL=Tipo de Avaliação
+BORDER_LBL_PROFUNDIDADE=Níveis a Avaliar
+BORDER_LBL_PRIORIDADE=Prioridades
+BORDER_LBL_URL=Site a Avaliar
+BORDER_LBL_RELATORIO=Relatório da URL: 
+BORDER_LBL_RESUMO=Resumo do Relatório
+BORDER_LBL_PERIDIOCIDADE=Peridiocidade
+BORDER_LBL_HORARIO=Horário
+BORDER_LBL_DADOS=Dados
+BTN_EXECUTAR_AGORA=Executar Agora...
+BTN_PARAR_EXECUCAO=Parar Execução
+BTN_FINALIZAR=Finalizar
+BTN_VISUALIZAR=Visualizar
+CMB_PROFUNDIDADE_OPCAO_1=Nível 1
+CMB_PROFUNDIDADE_OPCAO_2=Nível 2
+CMB_PROFUNDIDADE_OPCAO_3=Nível 3
+CMB_PROFUNDIDADE_OPCAO_4=Site
+CMB_PROFUNDIDADE_OPCAO_5=Página
+
+CMB_PROFUNDIDADE_LOCAL_OPCAO_1=Arquivo
+CMB_PROFUNDIDADE_LOCAL_OPCAO_2=Diretório
+ LOCALIZAR =Localizar
+CMB_SALVAR_OPCAO_1=Salvar Resumo
+CMB_SALVAR_OPCAO_2=Salvar Relatório Completo
+CMB_SALVAR_OPCAO_3=Cancelar
+CMB_SALVAR_OPCAO_4=Salvar PDF
+TBL_RELATORIO_COL_1=P.V.
+TBL_RELATORIO_COL_2=CASOS GERAIS
+TBL_RELATORIO_COL_3=OCORRÊNCIAS
+TBL_RELATORIO_COL_4=LINHAS
+MNU_LBL_OPCOES=Opções
+MNU_LBL_ATUALIZAR=Buscar Atualizações
+MNU_LBL_LINGUAGEM=Idiomas
+FILE_FILTER=Arquivos ASES
+AVALIACAO_CONCLUIDA=Concluído em
+
+
+
+
+
+
+# Regras
+REGRA_1=Fornecer um equivalente textual a cada elemento não textual (por ex., por meio de "alt" ou "longdesc", ou como parte do conteúdo do elemento). Isso abrange: imagens, representações gráficas do texto (incluindo símbolos), regiões de mapa de imagem, animações (por ex., GIF animados), applets e objetos programados, arte ASCII, frames, programas interpretáveis, imagens utilizadas como sinalizadores de pontos de enumeração, espaçadores, botões gráficos, sons (reproduzidos ou não com interação do usuário), arquivos de áudio independentes, trilhas áudio de vídeo e trechos de vídeo.
+REGRA_2=Fornecer links de texto redundantes relativos a cada região ativa de um mapa de imagem armazenado no servidor.
+REGRA_3=Fornecer uma descrição sonora das informações importantes veiculadas em trechos visuais das apresentações multimídia, até que os agentes do usuário consigam ler, automaticamente e em voz alta, o equivalente textual dos trechos visuais.
+REGRA_4=Em apresentações multimídia baseadas em tempo (filme ou animação), sincronizar as alternativas equivalentes (legendas ou descrições sonoras dos trechos visuais) e a apresentação.
+REGRA_5=Fornecer links textuais redundantes para cada região ativa dos mapas de imagem no cliente, até que os agentes do usuário proporcionem equivalentes textuais dos links a mapas de imagem armazenados no cliente.
+REGRA_6=Assegurar que todas as informações veiculadas com cor estejam também disponíveis sem cor, por exemplo a partir do contexto ou de marcações.
+REGRA_7=Assegurar que a combinação de cores entre o fundo e o primeiro plano seja suficientemente contrastante para poder ser vista por pessoas com cromodeficiências, bem como pelas que utilizam monitores de vídeo monocromáticos.
+REGRA_8=Sempre que existir uma linguagem de marcação apropriada, utilizar marcações em vez de imagens para transmitir informações.
+REGRA_9=Criar documentos passíveis de validação por gramáticas formais, publicadas. 
+REGRA_10=Utilizar folhas de estilo para controlar a paginação (disposição em página) e a apresentação.
+REGRA_11=Utilizar unidades relativas, e não absolutas, nos valores dos atributos da linguagem de marcação e nos valores das propriedades das folhas de estilo.
+REGRA_12=Utilizar elementos de cabeçalho indicativos da estrutura do documento, de acordo com as especificações.
+REGRA_13=Marcar corretamente listas e pontos de enumeração em listas.
+REGRA_14=Marcar as citações. Não utilizar marcações de citação para efeitos de formatação, como, por exemplo, o avanço de texto.
+REGRA_15=Identificar claramente quaisquer mudanças de idioma no texto de um documento, bem como nos equivalentes textuais (por ex., legendas).
+REGRA_16=Especificar por extenso cada abreviatura ou sigla quando da sua primeira ocorrência em um documento.
+REGRA_17=Identificar o principal idioma utilizado nos documentos.
+REGRA_18=Em tabelas de dados, identificar os cabeçalhos de linha e de coluna.
+REGRA_19=Em tabelas de dados com dois ou mais níveis lógicos de cabeçalhos de linha ou de coluna, utilizar marcações para associar as células de dados às células de cabeçalho.
+REGRA_20=Não utilizar tabelas para efeitos de disposição em página, a não ser que a tabela continue a fazer sentido depois de ser linearizada. Se não for o caso, fornecer um equivalente alternativo (que pode ser uma versão linearizada).
+REGRA_21=Se for utilizada uma tabela para efeitos de disposição em página, não utilizar qualquer marcação estrutural para efeitos de formatação visual.
+REGRA_22=Fornecer resumos das tabelas.
+REGRA_23=Fornecer abreviaturas para os rótulos de cabeçalho.
+REGRA_24=Organizar os documentos de tal forma que possam ser lidos sem recurso a folhas de estilo. Por exemplo, se um documento em HTML for reproduzido sem as folhas de estilo que lhe estão associadas, deve continuar a ser possível lê-lo.
+REGRA_25=Assegurar que os equivalentes de conteúdo dinâmico sejam atualizados sempre que esse conteúdo mudar.
+REGRA_26=Assegurar que todas as páginas possam ser utilizadas mesmo que os programas interpretáveis, os applets ou outros objetos programados tenham sido desativados ou não sejam suportados. Se isso não for possível, fornecer informações equivalentes em uma página alternativa, acessível.
+REGRA_27=Em programas interpretáveis e applets, assegurar que a resposta a eventos seja independente do dispositivo de entrada.
+REGRA_28=Assegurar a acessibilidade do conteúdo dinâmico ou fornecer apresentação ou página alternativas.
+REGRA_29=Evitar concepções que possam provocar intermitência da tela, até que os agentes do usuário possibilitem o seu controle.
+REGRA_30=Evitar situações que possam provocar o piscar do conteúdo das páginas (isto é, alterar a apresentação a intervalos regulares, como ligar e desligar) até que os agentes do usuário possibilitem o controle desse efeito.
+REGRA_31=Evitar páginas contendo movimento, até que os agentes do usuário possibilitem a imobilização do conteúdo.
+REGRA_32=Não criar páginas de atualização automática periódica, até que os agentes do usuário possibilitem parar essa atualização.
+REGRA_33=Não utilizar marcações para redirecionar as páginas automaticamente, até que os agentes do usuário possibilitem parar o redirecionamento automático. Ao invés de utilizar marcações, configurar o servidor para que execute os redirecionamentos.
+REGRA_34=Criar elementos de programação, tais como programas interpretáveis e applets, diretamente acessíveis pelas tecnologias de apoio ou com elas compatíveis
+REGRA_35=Fornecer mapas de imagem armazenados no cliente ao invés de no servidor, exceto quando as regiões não puderem ser definidas por forma geométrica disponível.
+REGRA_36=Assegurar que qualquer elemento dotado de interface própria possa funcionar de modo independente de dispositivos.
+REGRA_37=Em programas interpretáveis, especificar respostas a eventos, preferindo-as a rotinas dependentes de dispositivos.
+REGRA_38=Criar uma seqüência lógica de tabulação para percorrer links, controles de formulários e objetos.
+REGRA_39=Fornecer atalhos por teclado que apontem para links importantes (incluindo os contidos em mapas de imagem armazenados no cliente) controles de formulários e grupo de controles de formulários.
+REGRA_40=Não provocar o aparecimento de janelas de sobreposição ou outras quaisquer, e não fazer com que o conteúdo da janela atual seja modificado sem que o usuário seja informado disso, até que os agentes do usuário tornem possível a desativação de janelas secundárias.
+REGRA_41=Assegurar o correto posicionamento de todos os controles de formulários que tenham rótulos implicitamente associados, até que os agentes do usuário venham a suportar associações explícitas entre rótulos e controles de formulários.
+REGRA_42=Proporcionar uma alternativa de texto linear (na mesma ou em outra página), em relação a todas as tabelas que apresentem o texto em colunas paralelas e com translineação, até que os agentes do usuário (incluindo as tecnologias de apoio) reproduzam corretamente texto colocado lado a lado.
+REGRA_43=Incluir caracteres predefinidos de preenchimento nas caixas de edição e nas áreas de texto, até que os agentes do usuário tratem corretamente os controles vazios.
+REGRA_44=Inserir, entre links adjacentes, caracteres que não funcionem como link e sejam passíveis de impressão (com um espaço de início e outro de fim), até que os agentes do usuário (incluindo as tecnologias de apoio) reproduzam clara e distintamente os links adjacentes.
+REGRA_45=Utilizar tecnologias do W3C sempre disponíveis e adequadas a uma determinada tarefa utilizar as versões mais recentes, desde que suportadas.
+REGRA_46=Evitar funcionalidades desatualizadas de tecnologias do W3C.
+REGRA_47=Fornecer informações que possibilitem aos usuários receber os documentos de acordo com as suas preferências (por ex., por idioma ou por tipo de conteúdo)
+REGRA_48=Se, apesar de todos os esforços, não for possível criar uma página acessível, fornecer um link a uma página alternativa que utilize tecnologias do W3C, seja acessível, contenha informações (ou funcionalidade) equivalentes e seja atualizada tão freqüentemente quanto a página original, considerada inacessível.
+REGRA_49=Dar, a cada frame, um título que facilite a identificação dos frames e sua navegação.
+REGRA_50=Descrever a finalidade dos frames e o modo como se relacionam entre si, se isso não for óbvio a partir unicamente dos títulos.
+REGRA_51=Dividir grandes blocos de informação em grupos mais fáceis de gerenciar, sempre que for o caso.
+REGRA_52=Associar explicitamente os rótulos aos respectivos controles.
+REGRA_53=Identificar claramente o destino de cada link.
+REGRA_54=Fornecer metadados para acrescentar informações semânticas a páginas ou sites.
+REGRA_55=Dar informações sobre a organização geral de um site (por ex., por meio de um mapa do site ou de um sumário).
+REGRA_56=Utilizar os mecanismos de navegação de maneira coerente e sistemática.
+REGRA_57=Fornecer barras de navegação para destacar e dar acesso ao mecanismo de navegação.
+REGRA_58=Agrupar links relacionados entre si, identificar o grupo (em benefício dos agentes do usuário) e, até que os agentes do usuário se encarreguem de tal função, fornecer um modo de contornar determinado grupo.
+REGRA_59=Se forem oferecidas funções de pesquisa, ativar diferentes tipos de pesquisa de modo a corresponderem a diferentes níveis de competência e í0s preferências dos usuários.
+REGRA_60=Colocar informações identificativas no início de cabeçalhos, parágrafos, listas.
+REGRA_61=Fornecer informações sobre coleções de documentos (isto é, documentos compostos por várias páginas).
+REGRA_62=Fornecer meios para ignorar inserções de arte ASCII com várias linhas.
+REGRA_63=Utilizar linguagem a mais clara e simples possível, adequada ao conteúdo do site.
+REGRA_64=Complementar o texto com apresentações gráficas ou sonoras, sempre que facilitarem a compreensão da página.
+REGRA_65=Criar um estilo de apresentação coerente e sistemático, ao longo das diferentes páginas.
+REGRA_66=Assegure a acessibilidade de objetos programados, garantindo que a resposta a eventos seja independente do dispositivo de entrada e que qualquer elemento dotado de interface própria possa funcionar com qualquer leitor de tela ou navegador.
+REGRA_67= Fornecer equivalentes textuais para sons (reproduzidos ou não com  interação do usuário), arquivos de áudio independentes, trilhas áudio de vídeo e trechos de  vídeo. 

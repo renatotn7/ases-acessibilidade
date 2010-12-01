@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="SyntaxHighlighter.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<p><img src="saibamais.jpg" width="270" height="50" alt="Saiba Mais" /> </p>
+<p><strong>Ponto de verifica&ccedil;&atilde;o 7.5</strong></p>
+<p>N&atilde;o utilizar marca&ccedil;&otilde;es para redirecionar as p&aacute;ginas automaticamente, at&eacute; que os softwares do usu&aacute;rio possibilitem parar o redirecionamento autom&aacute;tico. Ao inv&eacute;s de utilizar marca&ccedil;&otilde;es, configurar o servidor para que execute os redirecionamentos.<br />
+O pr&oacute;ximo c&oacute;digo deve automaticamente mostrar a nova p&aacute;gina cinco segundos depois de carregar a p&aacute;gina corrente.</p>
+<p><strong> &lt;head&gt; <br />
+&lt;title&gt;N&atilde;o use isto!&lt;/title&gt; <br />
+&lt;meta http-equiv=&rdquo;refresh&rdquo; content=&rdquo;5; SRC=http://www.acme.com/newpage&rdquo; /&gt;<br />
+&lt;/head&gt;<br />
+&lt;body&gt;<br />
+&lt;p&gt;Se o seu navegador suporta o elemento Refresh,<br />
+voc&ecirc; vai ser transportado para o nosso &lt;a href=&rdquo;http://www.acme.com/newpage&rdquo;&gt;novo<br />
+s&iacute;tio&lt;/a&gt; em 5 segundos, caso contr&aacute;rio, selecione o link manualmente.<br />
+&lt;/body&gt;</strong></p>
+<p>As p&aacute;ginas n&atilde;o devem redirecionar os usu&aacute;rios com esta nota&ccedil;&atilde;o uma vez que ela n&atilde;o &eacute; normalizada, ela desorienta os usu&aacute;rios, e pode distorcer o hist&oacute;rico de p&aacute;ginas visitadas de um navegador. Em vez disso, por ordem de prefer&ecirc;ncia, os autores devem:</p>
+<ol>
+  <li>Configurar o servidor para usar o c&oacute;digo apropriado HTTP (301). O uso de cabe&ccedil;alhos HTTP &eacute; prefer&iacute;vel, porque reduz o tr&aacute;fego de Internet e os tempos de download, e pode ser aplicado a documentos &ldquo;non-HTML&rdquo;, e pode ser utilizado por agentes que apenas fazem uso do HEAD (e.g., verificadores de links). Os c&oacute;digos de status do tipo 30x, tamb&eacute;m fornecem informa&ccedil;&atilde;o como &ldquo;moved permanently&rdquo; (movido permanentemente) ou &ldquo;moved temporarily&rdquo; (movido temporariamente) os quais n&atilde;o podem ser dados pelo &ldquo;refresh&rdquo; do META. <br />
+  </li>
+  <li>Substituir a p&aacute;gina que vai ser redirecionada, por uma p&aacute;gina est&aacute;tica, que contenha um link normal para a nova p&aacute;gina. </li>
+</ol>
+</body>
+</html>

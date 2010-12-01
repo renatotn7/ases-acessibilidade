@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="SyntaxHighlighter.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<p><img src="saibamais.jpg" width="270" height="50" alt="Saiba Mais" /> </p>
+<p ><strong>Ponto de verifica&ccedil;&atilde;o 1.1</strong></p>
+<p >Fornecer um  equivalente textual a cada elemento n&atilde;o  textual (por ex., por meio de &ldquo;alt&rdquo; ou &ldquo;longdesc&rdquo;, ou como parte do conte&uacute;do do elemento). Isso abrange: imagens, representa&ccedil;&otilde;es gr&aacute;ficas do texto  (incluindo s&iacute;mbolos), regi&otilde;es  de mapa de imagem, anima&ccedil;&otilde;es (por ex., GIF  animados), applets e objetos programados, arte ASCII, frames, programas  interpret&aacute;veis, imagens utilizadas como sinalizadores de pontos  de enumera&ccedil;&atilde;o, espa&ccedil;adores,  bot&otilde;es gr&aacute;ficos, sons  (reproduzidos ou n&atilde;o com intera&ccedil;&atilde;o do usu&aacute;rio),  arquivos de &aacute;udio independentes, trilhas &aacute;udio de v&iacute;deo  e trechos de v&iacute;deo.</p>
+<p ><strong>a) Um equivalente textual para imagens e bot&otilde;es gr&aacute;ficos</strong></p>
+<p ><strong>Exemplo 1</strong></p>
+<p ><img src="1.1/clip_image002.jpg" alt="carro" width="200" height="82" /></p>
+<p >Esta foto &eacute; de um carro amarelo e o c&oacute;digo pode ser:</p>
+<p ><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>carro.jpg</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Foto de um carro amarelo.</strong><strong>&rdquo; /</strong><strong>&gt;</strong></p>
+<p >Para uma imagem simples, decorativa ou ocasional, fazer  apenas uma breve descri&ccedil;&atilde;o.</p>
+<br clear="all" style="page-break-before:always;" />
+<p style="text-align:justify;line-height:12.0pt;background:white;">Se a imagem constituir um link, descrever o destino ou o  prop&oacute;sito do link &ndash; e n&atilde;o a imagem. Neste caso, o desenho da casa &eacute; um bot&atilde;o que  constitui um link, que liga &agrave; p&aacute;gina principal. Por  isso, o c&oacute;digo pode ser o seguinte:</p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;a href=</strong><strong>&rdquo;</strong><strong>carro.htm</strong><strong>&rdquo;</strong><strong>&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>carro.jpg</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Link para a p</strong><strong>&aacute;</strong><strong>gina de entrada.</strong><strong>&rdquo; /</strong><strong>&gt; </strong><strong>&lt;/a&gt;</strong></p>
+<p ><strong>Exemplo 2</strong></p>
+<p >Se  a informa&ccedil;&atilde;o contida na imagem &eacute; importante para a compreens&atilde;o da p&aacute;gina (ou  seja, uma parte do  conte&uacute;do informativo pode ser perdida, caso seja retirada a imagem). O atributo LONGDESC foi criado para  situa&ccedil;&otilde;es em que a descri&ccedil;&atilde;o a ser feita deve ser mais longa do que a permitida pelo atributo ALT.</p>
+<p><img src="1.1/clip_image004.jpg" alt="montanhas" width="302" height="166" /></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>montanhas_alasca.jpg</strong><strong>&rdquo;</strong><strong> longdesc=</strong><strong>&rdquo;</strong><strong>montanhas.htm</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Foto de montanhas no </strong><strong>Alasca.</strong><strong>&rdquo; /</strong><strong>&gt;</strong></p>
+<p >Os  futuros navegadores ou agentes do usu&aacute;rio ir&atilde;o  disponibilizar um link opcional para o arquivo  que conter&aacute; a descri&ccedil;&atilde;o,  chamado &ldquo;montanhas.htm&rdquo;.</p>
+<p ><strong>Exemplo 3</strong></p>
+<p >Se  voc&ecirc; utiliza o elemento OBJECT para posicionar uma imagem, inclua o texto  alternativo no conte&uacute;do do elemento OBJECT, por exemplo:</p>
+<p><img src="1.1/clip_image006.jpg" alt="trigo" width="138" height="93" /></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;object data=</strong><strong>&rdquo;</strong><strong>trigo.jpg</strong><strong>&rdquo;</strong><strong> type=</strong><strong>&rdquo;</strong><strong>image/jpg</strong><strong>&rdquo;</strong><strong> height=&rdquo;100&rdquo; width=&rdquo;100&rdquo;&gt;</strong> </p>
+<p style="line-height:9.85pt;background:white;"><strong>Coloque aqui a descri</strong><strong>&ccedil;&atilde;</strong><strong>o curta ou longa (ou  link para um arquivo contendo uma</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>descri</strong><strong>&ccedil;&atilde;</strong><strong>o longa).</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;/object&gt;</strong></p>
+<strong><br clear="all" style="page-break-before:always;" />
+</strong>
+<p style="line-height:9.85pt;background:white;"><strong>Observa</strong><strong>&ccedil;&atilde;</strong><strong>o: </strong>O  elemento OBJECT ainda n&atilde;o &eacute; um formato padr&atilde;o  para imagens. Ele s&oacute; funciona nos  navegadores Mozilla (Mozilla, Firefox e Netscape) e Opera. Observe nos exemplos  abaixo como ele se comporta nos navegadores.</p>
+<p><img src="1.1/clip_image008.jpg" alt="tigre explorer" width="149" height="203" /><br />
+OBJECT no Internet Explorer</p>
+<p><img src="1.1/clip_image010.jpg" alt="tigre netscape" width="147" height="200" /><br />
+  OBJECT no Netscape<br clear="all" style="page-break-before:auto;" />
+</p>
+<p ><strong>b) Um equivalente  textual para representa</strong><strong>&ccedil;&otilde;</strong><strong>es gr</strong><strong>&aacute;</strong><strong>ficas de texto (incluindo s</strong><strong>&iacute;</strong><strong>mbolos)</strong></p>
+<p >Para  imagens que s&atilde;o simplesmente mapas de bits de texto (porque o objetivo &eacute; usar tipos  de letra especiais ou outro tipo de transforma&ccedil;&atilde;o dif&iacute;cil ou  imposs&iacute;vel de ser feito com folhas de  estilo), forne&ccedil;a o respectivo texto equivalente. Por exemplo:</p>
+<p><img src="1.1/clip_image012.jpg" alt="mag innovision" width="341" height="106" /></p>
+<p ><strong>&lt;img  src=</strong><strong>&rdquo;</strong><strong>MAG.gif</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>MAG  Innovision</strong><strong>&rdquo; /</strong><strong>&gt;</strong> </p>
+<p >Sempre que existir uma  linguagem de nota&ccedil;&atilde;o para s&iacute;mbolos, como &eacute; o caso do MathML, use-a em detrimento de um  simples equivalente textual. Para mais detalhes, veja o exemplo para o  ponto de verifica&ccedil;&atilde;o 3.1.</p>
+<p ><strong>c)</strong><strong> Um equivalente textual para as regi</strong><strong>&otilde;</strong><strong>es do mapa de imagens</strong></p>
+<p >Para usu&aacute;rios que  utilizem navegadores n&atilde;o gr&aacute;ficos ou para algu&eacute;m que n&atilde;o use um  tradicional dispositivo (mouse ou tela touch-screen), uma p&aacute;gina que  fa&ccedil;a uso de um mapa de imagens como o &uacute;nico meio de suporte &agrave; navega&ccedil;&atilde;o poder&aacute; ser  bastante inacess&iacute;vel. Existe um conjunto de t&eacute;cnicas dispon&iacute;veis que  lhe permitem assegurar que o seu mapa de imagens sejam acess&iacute;veis. Todas essas t&eacute;cnicas  envolvem o fornecimento de um equivalente textual para as funcionalidades cr&iacute;ticas  existentes no mapa: nomear as &aacute;reas ativas que representam  links para outra informa&ccedil;&atilde;o.</p>
+<p >Mais detalhes nos pontos de verifica&ccedil;&atilde;o 1.2 e 1.5</p>
+<p ><strong>d)</strong><strong> Um equivalente  textual para anima</strong><strong>&ccedil;&otilde;</strong><strong>es (como GIFs  animados)</strong></p>
+<table>
+  <tr>
+    <td valign="top" align="left" height="72"><p><img src="1.1/clip_image014.jpg" alt="balao" width="72" height="72" /></p></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td valign="top" align="left" height="15"><p ><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>ani-bal.gif</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Anima</strong><strong>&ccedil;&atilde;</strong><strong>o de um bal</strong><strong>&atilde;</strong><strong>o enchendo at</strong><strong>&eacute;</strong><strong> arrebentar.</strong><strong>&rdquo;    /</strong><strong>&gt;</strong></p></td>
+  </tr>
+</table>
+<p >Por exemplo:</p>
+<br clear="all" style="page-break-before:always;" />
+<p ><strong>e) Um equivalente textual para APPLETS e objetos  program</strong><strong>&aacute;</strong><strong>veis</strong></p>
+<p >O  elemento APPLET est&aacute; ultrapassado em HTML 4.0. (Em substitui&ccedil;&atilde;o, comece  a usar o novo elemento OBJECT). No entanto, ele continua a ser utilizado com  freq&uuml;&ecirc;ncia. Se voc&ecirc; est&aacute; modificando um APPLET para torn&aacute;-lo mais  acess&iacute;vel, use o atributo ALT para uma breve descri&ccedil;&atilde;o da sua a&ccedil;&atilde;o ou prop&oacute;sito. Caso  queira ajudar o p&uacute;blico a compreender o prop&oacute;sito do APPLET, inclua uma descri&ccedil;&atilde;o mais  detalhada no conte&uacute;do do elemento APPLET (por exemplo, entre as express&otilde;es  &lt;APPLET&gt; e &lt;/APPLET&gt;).</p>
+<p >O  c&oacute;digo a seguir ser&aacute; produzido independentemente da vers&atilde;o ou da  capacidade do seu navegador para mostr&aacute;-lo.</p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;applet code=</strong><strong>&rdquo;</strong><strong>Blink.class</strong><strong>&rdquo;</strong><strong> width=</strong><strong>&rdquo;</strong><strong>500</strong><strong>&rdquo;</strong><strong> height=</strong><strong>&rdquo;</strong><strong>40</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Applet Java: texto dan</strong><strong>&ccedil;</strong><strong>ante.</strong><strong>&rdquo;</strong><strong>&gt;</strong> </p>
+<p style="line-height:9.85pt;background:white;"><strong>Se estiver usando um navegador com suporte a JAVA, voc</strong><strong>&ecirc;</strong><strong> poder</strong><strong>&aacute;</strong><strong> ver o texto </strong><strong>&ldquo;</strong><strong>Ser ou n</strong><strong>&atilde;</strong><strong>o</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>ser, eis a quest</strong><strong>&atilde;</strong><strong>o.</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>Ou seria a quest</strong><strong>&atilde;</strong><strong>o ser ou n</strong><strong>&atilde;</strong><strong>o ser ...</strong><strong>&rdquo;</strong><strong>, flutuando ao longo da  tela, em vez deste</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>par</strong><strong>&aacute;</strong><strong>grafo.</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;/applet&gt;</strong></p>
+<br clear="all" style="page-break-before:auto;" />
+<p ><strong>f) Um equivalente textual para arte ASCII.</strong></p>
+<p ><strong>Exemplo 1</strong></p>
+<p >Para o relat&oacute;rio explicativo do processo de produ&ccedil;&atilde;o, criamos dois gr&aacute;ficos,  nos quais pode ser visualizada a rela&ccedil;&atilde;o  existente entre os custos e o tempo. O gr&aacute;fico  feito com caracteres ASCII tem maior significado  para usu&aacute;rios com leitores de tela, principalmente para quem usa linha Braille. O segundo gr&aacute;fico mostra a mesma informa&ccedil;&atilde;o, numa imagem do tipo bitmap criada a partir de simples programa de desenho. Apesar desta &uacute;ltima imagem  ser inacess&iacute;vel a usu&aacute;rios com  leitores de tela, podemos, no entanto, adicionar equivalente textual usando para o efeito os atributos alt ou longdesc.</p>
+<p >Gr&aacute;fico em bitmap</p>
+<table>
+  <tr>
+    <td valign="top" align="left" height="134"><p><img src="1.1/clip_image016.jpg" alt="grafico" width="168" height="134" /></p></td>
+  </tr>
+</table>
+<pre>
+  Gráfico Arte-ASCII
+
+   C  40-|         o 
+   u  30-|     o o
+   s  20-|  o o
+   t  20-| o
+   o      ------------
+           '  '  '  '
+           1  2  3  4
+              Tempo
+</pre>
+<p><img src="1.1/clip_image018.jpg" alt="icone de sorriso" width="267" height="133" /></p>
+<br clear="all" style="page-break-before:always;" />
+<p ><strong>Exemplo 2</strong></p>
+<p >Se  a imagem constru&iacute;da em arte ASCII n&atilde;o contiver informa&ccedil;&atilde;o de extrema relev&acirc;ncia,  utilize uma simples descri&ccedil;&atilde;o.</p>
+<p >A imagem que se segue, feita em  arte ASCII, &eacute; da silhueta de uma pessoa com um</p>
+<p >chap&eacute;u. <u>(Saltar  a arte ASCII)</u></p>
+<p >Silhueta de uma pessoa com chap&eacute;u,  desenhada com caracteres ASCII.</p>
+<p ><strong>&lt;a  href=&quot;#salto&quot;&gt; &lt;/a&gt;</strong></p>
+
+<pre>          MMMMMMMM
+      WWWWW      WWWWW
+     ******************
+        | \O/ \O/ |
+        |    |    |
+        \         /
+         \  ---  /
+           VVVVV
+            VVV</pre>
+<p ><strong>&lt;a name=&quot;salto&quot;&gt;  &lt;/a&gt;</strong></p>
+<p >Note  que o link permite &agrave; pessoa que utiliza um leitor de tela passar por cima do  ASCII e chegar logo &agrave; legenda.</p>
+<p ><strong>g) Um equivalente  textual para frames</strong></p>
+<p >Use  o &ldquo;title&rdquo; e se necess&aacute;rio, o atributo &ldquo;longdesc&rdquo; no  elemento FRAME para descrever mais detalhes  sobre o frame ou as suas rela&ccedil;&otilde;es com outros  frames. No ponto de verifica&ccedil;&atilde;o 12.2 e 6.5 daremos  mais detalhes. </p>
+<p ><strong>Exemplo</strong></p>
+<p style="line-height:10.1pt;background:white;"><strong>&lt;frame src=&quot;principal.html&quot; <em>longdesc</em>=&quot;descricao.html&quot; <em>title</em>=&quot;Frame com cont</strong><strong>e</strong><strong>&uacute;do </strong><strong>principal&quot;&gt;</strong></p>
+<p ><strong>h) Um equivalente textual para scripts</strong></p>
+<p >Use  o elemento NOSCRIPT para descrever a a&ccedil;&atilde;o ou substituir a funcionalidade  de qualquer script que integre na p&aacute;gina.</p>
+<p >Por  exemplo, se escrever um SCRIPT que produz uma anima&ccedil;&atilde;o  apresentando um novo painel sempre que o usu&aacute;rio clique numa dada regi&atilde;o da tela  ou pressione uma tecla, use o elemento NOSCRIPT para fornecer uma alternativa textual que descreva  inteiramente a a&ccedil;&atilde;o. Por exemplo:</p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;script type=</strong><strong>&rdquo;</strong><strong>text/javascript</strong><strong>&rdquo;</strong><strong>&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>... script para mostrar e substituir pain</strong><strong>&eacute;</strong><strong>is de acordo com a sele</strong><strong>&ccedil;&atilde;</strong><strong>o do usu</strong><strong>&aacute;</strong><strong>rio...</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;/script&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;noscript&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>No primeiro painel, Lucy segura numa bola de futebol. No segundo painel,  Charlie Brown</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>est</strong><strong>&aacute;</strong><strong> vendo futebol. E assim sucessivamente...</strong><strong>&rdquo;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;/noscript&gt;</strong></p>
+<strong><br clear="all" style="page-break-before:always;" />
+</strong>
+<p style="line-height:9.85pt;background:white;"><strong>i) Um equivalente  textual para imagens usadas em substitui</strong><strong>&ccedil;&atilde;</strong><strong>o dos </strong><strong>&ldquo;</strong><strong>bullets</strong><strong>&rdquo;</strong><strong> das listas</strong></p>
+<p >Aqui  est&aacute; uma lista n&atilde;o ordenada que faz uso de gr&aacute;ficos em  substitui&ccedil;&atilde;o das &ldquo;bullets&rdquo; de lista criados por efeito pelo  elemento &lt;UL&gt;:</p>
+<img src="1.1/clip_image019.gif" alt="item: " width="14" height="14"/>&nbsp;L&aacute;pis<br />
+<img src="1.1/clip_image019_0000.gif" alt="item: " width="14" height="14" />&nbsp;Telefone<br />
+<img src="1.1/clip_image019_0001.gif" alt="item: " width="14" height="14" />&nbsp;Calend&aacute;rio
+<p >O  exemplo, em c&oacute;digo, apresenta tr&ecirc;s maneiras diferentes, mas apropriadas, para utilizar o atributo ALT como legenda para os marcadores.</p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>blueball.gif</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Item: </strong><strong>&ldquo; /</strong><strong>&gt; L</strong><strong>&aacute;</strong><strong>pis &lt;br /&gt; </strong><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>blueball.gif</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>* </strong><strong>&ldquo; /</strong><strong>&gt; Telefone &lt;br /&gt; </strong><strong>&lt;img  src=</strong><strong>&rdquo;</strong><strong>blueball.gif</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong> </strong><strong>&ldquo; /</strong><strong>&gt; Calend</strong><strong>&aacute;</strong><strong>rio &lt;br /&gt;</strong></p>
+<ol>
+  <li>Para salientar o item ou qualquer  outro texto simples, deve ser usado &ldquo;Item&rdquo;,  especialmente se n&atilde;o existirem muitas entradas na lista. </li>
+  <li>Para fornecer uma alternativa  textual id&ecirc;ntica ao bullet (marcador gr&aacute;fico) deve ser usado um asterisco &ldquo;*&rdquo; ou um h&iacute;fen &ldquo;-&rdquo;. </li>
+  <li>Para uma lista com grande n&uacute;mero de  itens, ser&aacute; mais apropriado colocar um espa&ccedil;o em branco entre as aspas do atributo ALT. Isto  poupa o usu&aacute;rio de leitor de tela de ouvir, repetidamente,  a indica&ccedil;&atilde;o &ldquo;Item...&rdquo;. </li>
+</ol>
+<p ><strong>j) Um equivalente  textual para imagens usadas como spacers (espa</strong><strong>&ccedil;</strong><strong>adores)</strong></p>
+<p >A  cria&ccedil;&atilde;o de um arquivo de imagem muito pequeno e transparente &eacute; um truque  de layout utilizado por muitos autores.  Isto for&ccedil;a espa&ccedil;os em branco entre  outros objetos, especificando a altura e a largura, ou os atributos hspace e  vspace do elemento IMG. O equivalente  textual apropriado para um spacer &eacute; simplesmente nada, ou seja, um  espa&ccedil;o em branco. Por isso: </p>
+<p style="line-height:22.1pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>spacer.gif</strong><strong>&rdquo;</strong><strong> hspace=&quot;100&quot; vspace=&quot;10&quot; alt=</strong><strong>&rdquo;</strong><strong> </strong><strong>&ldquo; /</strong><strong>&gt;</strong> </p>
+<p style="line-height:22.1pt;background:white;">ou </p>
+<p style="line-height:22.1pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>spacer.gif</strong><strong>&rdquo;</strong><strong> width=&quot;5&quot; height=&quot;200&quot; alt=</strong><strong>&rdquo;</strong><strong> </strong><strong>&ldquo; /</strong><strong>&gt;</strong> </p>
+<p >Observe  que existe um espa&ccedil;o em branco entre as marcas de aspas no atributo ALT. N&oacute;s preferimos, claro, que para definir  seu layout, seja feito uso de nota&ccedil;&atilde;o para folhas de estilo.</p>
+<p ><strong>k) Um equivalente textual para sons (tocado com ou sem  intera</strong><strong>&ccedil;&atilde;</strong><strong>o do usu</strong><strong>&aacute;</strong><strong>rio).</strong></p>
+<p >Se  voc&ecirc; produziu um script que causa um aviso sonoro para ser tocado se o  visitante da sua p&aacute;gina  tentar enviar um formul&aacute;rio antes dos campos requeridos estarem preenchidos.</p>
+<p >Coloque  por favor no seu programa (ou script) a capacidade de escrever uma mensagem na tela que diga algo como:</p>
+<p>&ldquo;Voc&ecirc; tentou submeter um formul&aacute;rio incompleto. Preencha, por  favor, os campos necess&aacute;rios.&rdquo;</p>
+<br clear="all" style="page-break-before:always;" />
+<p ><strong>l)  Um equivalente textual para arquivos de &aacute;</strong><strong>u</strong><strong>dio</strong></p>
+<p ><strong>Exemplo 1</strong></p>
+<p >Se o arquivo de &aacute;udio for pequeno, inclua o equivalente textual no  atributo ALT numa imagem que acompanha o link para o arquivo de &aacute;udio.</p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;a href=</strong><strong>&rdquo;</strong><strong>work-e.wav</strong><strong>&rdquo;</strong><strong>&gt;</strong> </p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>audio.gif</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Arquivo de som: Venha  trabalhar conosco na</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>acessibilidade brasil. </strong><strong>&ldquo; /</strong><strong>&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>Escute uma mensagem  deixada pelo autor. </strong><strong>&lt;/a&gt;</strong></p>
+<p ><strong>Exemplo 2</strong></p>
+<p >Mas se o arquivo de &aacute;udio for muito grande, crie um link para um arquivo  que contenha uma transcri&ccedil;&atilde;o integral do  arquivo.</p>
+<p style="line-height:23.05pt;background:white;">Vamos ouvir <u>A Festa  do Santo Reis</u> de Tim Maia</p>
+<p style="line-height:23.05pt;background:white;">A Festa do Santo Reis &mdash; Tim Maia</p>
+<p style="line-height:23.05pt;background:white;">Hoje &eacute; o dia de Santo Reis</p>
+<p>Ainda  meio esquecido</p>
+<p>Mas &eacute; o dia da festa de Santo Reis</p>
+<p>Eles  chegam tocando sanfona e viol&atilde;o</p>
+<p>Os pandeiros de fitas</p>
+<p>Carregam  sempre na m&atilde;o</p>
+<p>Eles  v&atilde;o levando</p>
+<p>Levando o que pode</p>
+<p>Sem  deixar com eles</p>
+<p>Eles  levam at&eacute; os bodes</p>
+<p>Os bodes da gente</p>
+<p>E os bodes, m&eacute;</p>
+<p>Hoje &eacute; o dia de Santo Reis</p>
+<p>Hoje &eacute; o dia</p>
+<p>Santo  Reis</p>
+<p ><strong>m) Um equivalente  textual para faixas de &aacute;</strong><strong>u</strong><strong>dio ou v</strong><strong>&iacute;</strong><strong>deo.</strong></p>
+<p >Um equivalente textual  para a faixa &aacute;udio de um v&iacute;deo &eacute; similar &agrave; transcri&ccedil;&atilde;o textual de um discurso gravado num arquivo de &aacute;udio. Isto pode ser um equivalente textual  sincronizado - o qual &eacute; o m&eacute;todo preferido, ou um simples arquivo de texto, como &eacute; aqui exemplificado:</p>
+<p style="text-align:justify;line-height:11.05pt;background:white;"><strong>spielflm.de</strong>:  Os aficionados dos seus filmes gostam de etiquet&aacute;-lo como poeta, fil&oacute;sofo e vision&aacute;rio. Saberia o que fazer com a etiqueta?</p>
+<p><strong>Werner</strong>: Pouco. Eu nunca olhei para mim  mesmo. Nunca estive ligado a esse fen&ocirc;meno pouco sadio, um fen&ocirc;meno da  moda, ser obrigado a analisar-me a mim mesmo. Eu n&atilde;o sei nem  sequer a cor dos meus olhos. At&eacute; olho para o espelho toda manh&atilde; e fico  atento, mas s&oacute; para n&atilde;o  me cortar ao fazer a barba. Por&eacute;m prefiro n&atilde;o me olhar nos olhos. Eu n&atilde;o sei, e Deus &eacute; minha testemunha, a cor dos meus olhos.</p>
+<p ><strong>spielflm.de</strong>:  Azul-claro, como se constata.</p>
+<p style="text-align:justify;line-height:11.05pt;background:white;"><strong>Werner</strong>: Tudo  bem. Voc&ecirc; bem que poderia ter dito &ldquo;verde&rdquo;, &ldquo;castanho&rdquo; ou &ldquo;preto&rdquo;. (ri) De qualquer modo, n&atilde;o acredito  em nada do que voc&ecirc; diz. Mas: Vou desta vez vou ficar com o boato.</p>
+<br clear="all" style="page-break-before:always;" />
+<p ><strong>n)  Um equivalente textual para v</strong><strong>&iacute;</strong><strong>deo</strong></p>
+<p >Trata-se  de uma descri&ccedil;&atilde;o das cenas e das a&ccedil;&otilde;es no v&iacute;deo &ndash; mas n&atilde;o dos di&aacute;logos. No exemplo abaixo, a descri&ccedil;&atilde;o do que se passa no v&iacute;deo &eacute; interligado  com o equivalente textual dos di&aacute;logos. Tal como no exemplo anterior, o m&eacute;todo preferido &eacute; a integra&ccedil;&atilde;o  sincronizada do equivalente textual do v&iacute;deo no pr&oacute;prio  clipe do filme.</p>
+<p ><strong>Description</strong>: </p>
+<p >A  title: &ldquo;On-air  Science and Math Fair. Math is Everywhere.&rdquo; </p>
+<p ><strong>Caption</strong>: </p>
+<p >Man: Go long, way  out. </p>
+<p ><strong>Description</strong>: </p>
+<p >A man throws a  football. </p>
+<p><strong>Caption</strong>: </p>
+<p>Professor: Submitted for your consideration: the ball has been thrown,  and you want to </p>
+<p>catch it. But how do you know where it will go so you can be there when  it comes down? </p>
+<p >One way  is to use this formula. </p>
+<p ><strong>Description</strong>: </p>
+<p >The professor scribbles  numbers on a blackboard. </p>
+<p><strong>Caption</strong>: </p>
+<p style="text-align:justify;line-height:10.8pt;background:white;">It  factors in velocity, acceleration and time to calculate the distance the ball  will go. But then, you knew that. Your brain estimates all  of these values in the first seconds of the ball&rsquo;s  fight to calculate where you have to go to catch the ball. </p>
+<p ><strong>Description</strong>: </p>
+<p >A beach ball  bounces off his head. He tries to catch it. </p>
+<p><strong>Caption</strong>: </p>
+<p>This math equation helps us understand the physical world and how we  function in it. Whether you do it on the board or on the field, they both work.  So, next time you go out for that long pass, remember: Math is everywhere. </p>
+<p >Math is  everywhere! </p>
+<p ><strong>Description</strong>: </p>
+<p >A title: &ldquo;Math is Everywhere.&rdquo; </p>
+</body>
+</html>

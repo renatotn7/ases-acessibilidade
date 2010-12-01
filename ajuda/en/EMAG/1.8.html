@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="SyntaxHighlighter.css" rel="stylesheet"
+type="text/css" />
+</head>
+<body>
+<p><img src="saibamais.jpg" width="270" height="50"
+alt="Saiba Mais" /></p>
+
+<p><strong>Recomenda&ccedil;&atilde;o 1.8 -</strong> Criar uma
+seq&uuml;&ecirc;ncia l&oacute;gica de tabula&ccedil;&atilde;o para
+percorrer <em>links</em>, controles <strong> </strong>de
+formul&aacute;rios e objetos.</p>
+
+<p>A tecla TAB pode ser usada para navegar dentro das
+p&aacute;ginas. Portando, as marca&ccedil;&otilde;es devem 
+ser dispostas para que sejam navegadas de forma linear. O comando
+TABINDEX permite que  voc&ecirc; estabele&ccedil;a uma ordem
+l&oacute;gica, ao usar a tecla TAB eles surgem na ordem
+&ldquo;correta&rdquo; (para  navegadores que suportam o
+atributo &ldquo;tabkey&rdquo;). O TABINDEX trabalha com os
+elementos: &lt;a&gt;,  &lt;area&gt;, &lt;button&gt;,
+&lt;input&gt;, &lt;object&gt;, &lt;select&gt; e
+&lt;textarea&gt;.</p>
+
+<div class="caixa2">
+<form method="post" action="home.htm">
+<p>Qual &eacute; a sua cor favorita?<br />
+<br />
+ Nome:  <input type="text" name="tboxin" tabindex="1"
+size="20" /> <br />
+<br />
+   <input type="checkbox" name="cb1" value="checkbox1" />
+Vermelho<br />
+  <input type="checkbox" name="cb3" value="checkbox3" />
+Azul<br />
+<br />
+ <input type="submit" value="enviar" tabindex="4" /> <input
+type="reset" value="apagar" tabindex="5" /> </p>
+</form>
+</div>
+
+<p style="clear:both"><strong><br />
+  No c&oacute;digo
+html: </strong></p>
+
+<div class="dp-highlighter">
+<ol class="dp-j" start="1">
+<li class="alt"><span>&lt;form method="post" action="home.htm"&gt;Qual
+&eacute; a sua cor favorita? &lt;br /&gt; &lt;br /&gt;</span></li>
+
+<li class=""><span> Nome:  </span></li>
+
+<li class="alt"><span>&lt;input type="text" name="tboxin" tabindex="1"
+size="20" /&gt; &lt;br /&gt;&lt;br /&gt;</span></li>
+
+<li class=""><span>&amp;nbsp;&amp;nbsp;&lt;input type="checkbox"
+name="cb1" value="checkbox1" tabindex="2" /&gt;
+Vermelho &lt;br /&gt; </span></li>
+
+<li class="alt"><span>&lt;input type="checkbox" name="cb3"
+value="checkbox3" tabindex="3" /&gt;Azul &lt;br /&gt; &lt;br
+/&gt;</span></li>
+
+<li class=""><span>&lt;input type="submit" value="enviar" tabindex="4"
+/&gt; &lt;input type="reset" value="apagar" tabindex="5"
+/&gt;</span></li>
+
+<li class="alt"><span>&lt;/form&gt;</span></li>
+</ol>
+</div>
+
+<p>Apesar de poder controlar a ordem da tecla TAB, o ideal &eacute;
+que voc&ecirc; crie os formul&aacute;rios de  forma
+l&oacute;gica. O TABINDEX &eacute; altamente recomendado para o
+caso dos campos obrigat&oacute;rios de  formul&aacute;rios
+extensos.</p>
+</body>
+</html>

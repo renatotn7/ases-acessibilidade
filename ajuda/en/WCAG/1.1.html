@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="SyntaxHighlighter.css" rel="stylesheet" type="text/css" /></head>
+<body>
+<p><img src="saibamais.jpg" width="270" height="50" alt="Saiba Mais" /> </p>
+<p ><strong>Checkpoint 1.1</strong></p>
+<p >Provide an equivalent text for every non-text element (e.g., via "alt", "longdesc", or in element content). This includes: images, graphical representations of text (including symbols), image map regions, animations (e.g., animated GIFs), applets and programmatic objects, ascii art, frames, scripts, images used as list bullets, spacers, graphical buttons, sounds (played with or without user interaction), stand-alone audio files, audio tracks of video, and video.</p>
+<p ><strong>a) A textual equivalent for images and graphic bottons</strong></p>
+<p ><strong>Example 1:</strong></p>
+<p ><img src="1.1/clip_image002.jpg" alt="carro" width="200" height="82" /></p>
+<p >This is a picture of a yellow car and its code can be :</p>
+<p ><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>car.jpg</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Picture of a yellow car .</strong><strong>&rdquo; /</strong><strong>&gt;</strong></p>
+<p >For a simple image, ornamental or occasional, do only a brief description.</p>
+<br clear="all" style="page-break-before:always;" />
+<p style="text-align:justify;line-height:12.0pt;background:white;">If the image is also a link, describe the destination or the propose of the link &ndash; and NOT the image. In this case, the draw of the house is a bottom that constitutes a link, that links to the main page. Because of this, the code can be the followed:</p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;a href=</strong><strong>&rdquo;</strong><strong>car.htm</strong><strong>&rdquo;</strong><strong>&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>car.jpg</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Link to the home page</strong><strong>.</strong><strong>&rdquo; /</strong><strong>&gt; </strong><strong>&lt;/a&gt;</strong></p>
+<p ><strong>Example 2:</strong></p>
+<p >If the contained information in the image is important to understanding the page (in other words, a part of the informative content can be lost, if the image is removed). The  LONGDESC attribute was created to the situations where the desciption to be done must be longer than the allowed by the ALT attribute.</p>
+<p><img src="1.1/clip_image004.jpg" alt="montanhas" width="302" height="166" /></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>alaska_mountains.jpg</strong><strong>&rdquo;</strong><strong> longdesc=</strong><strong>&rdquo;</strong><strong>mountains.htm</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;Picture of mountains in the</strong><strong> </strong><strong>Alaska.</strong><strong>&rdquo; /</strong><strong>&gt;</strong></p>
+<p >The future brwosers or user agents will   have available an optional link to the file that contains the description,  named &ldquo;mountains.htm&rdquo;.</p>
+<p ><strong>Example 3:</strong></p>
+<p >If you use the OBJECT element to position an image, include the alternative text inside the content of the OBJECT element, for example:</p>
+<p><img src="1.1/clip_image006.jpg" alt="trigo" width="138" height="93" /></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;object data=</strong><strong>&rdquo;</strong><strong>wheat.jpg</strong><strong>&rdquo;</strong><strong> type=</strong><strong>&rdquo;</strong><strong>image/jpg</strong><strong>&rdquo;</strong><strong> height=&rdquo;100&rdquo; width=&rdquo;100&rdquo;&gt;</strong> </p>
+<p style="line-height:9.85pt;background:white;"><strong>Put here the short or long description</strong><strong> (or a link to a file that contains a long description</strong><strong>).</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;/object&gt;</strong></p>
+<strong><br clear="all" style="page-break-before:always;" />
+</strong>
+<p style="line-height:9.85pt;background:white;"><strong>Observation</strong><strong>: </strong>The OBJECT element is not yet a image standad. It only works on the  Mozilla web browser (Mozilla, Firefox and Netscape) and the Opera. Check the examples below to see how it works on the web browsers.</p>
+<p><img src="1.1/clip_image008.jpg" alt="tigre explorer" width="149" height="203" /><br />
+OBJECT on the Internet Explorer</p>
+<p><img src="1.1/clip_image010.jpg" alt="tigre netscape" width="147" height="200" /><br />
+  OBJECT on the Netscape<br clear="all" style="page-break-before:auto;" />
+</p>
+<p ><strong>b) A textual equivalent to the graphical text representations </strong><strong> (including  sy</strong><strong>mbols)</strong></p>
+<p >To the simply text bit maps images  (because the objective is to use types of special letters or other type of hard or impossible transformation to be done with cascading style sheet), provide the respective equivalent text. For example:</p>
+<p><img src="1.1/clip_image012.jpg" alt="mag innovision" width="341" height="106" /></p>
+<p ><strong>&lt;img  src=</strong><strong>&rdquo;</strong><strong>MAG.gif</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>MAG  Innovision</strong><strong>&rdquo; /</strong><strong>&gt;</strong> </p>
+<p >If there is a notation language to the symbols, as MathML, use it instead of a simple textual equivalent. For more detailed information, see the 3.1 checklist.</p>
+<p ><strong>c)</strong><strong> A textual equivalent to the image map regions</strong></p>
+<p >To users that use non-graphical web browsers or someone that doesn't use a traditional device (mouse or touch-screen), a page that has image maps as the only way to access the information can be very inaccessible. There are a couple of available techniques that allow to assure that your map can be accessible. All these techniques involve the supply of a textual equivalant to the existing critical functionalities in the image map: name the active areas that represent links to the other information.</p>
+<p >Further information on the 1.2 and 1.5 checkpoints.</p>
+<p ><strong>d)</strong><strong> A textual equivalent for animations</strong><strong> (as animated GIFs)</strong></p>
+<table>
+  <tr>
+    <td valign="top" align="left" height="72"><p><img src="1.1/clip_image014.jpg" alt="balao" width="72" height="72" /></p></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td valign="top" align="left" height="15"><p ><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>ani-bal.gif</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Anima</strong><strong>&ccedil;&atilde;</strong><strong>o de um bal</strong><strong>&atilde;</strong><strong>o enchendo at</strong><strong>&eacute;</strong><strong> arrebentar.</strong><strong>&rdquo;    /</strong><strong>&gt;</strong></p></td>
+  </tr>
+</table>
+<p >For example:</p>
+<br clear="all" style="page-break-before:always;" />
+<p ><strong>e) A textual equivalent for APPLETS and programmable objects</strong></p>
+<p >The APPLET element is deprecated in the HTML 4.0. language (In substitution, start to use the new element OBJECT). However, it keeps been used frequently. If you are modifying an APPLET to make it more accessible, use the  ALT attribute to a brief description of its action or purpose. In case you want to help the users to understand the purpose of the APPLET, include a more detailed description to the APPLET element content (for example, between the expressions  &lt;APPLET&gt; and &lt;/APPLET&gt;).</p>
+<p >The follwed code will be produced independently of version or capacity of your web browser to show it.</p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;applet code=</strong><strong>&rdquo;</strong><strong>Blink.class</strong><strong>&rdquo;</strong><strong> width=</strong><strong>&rdquo;</strong><strong>500</strong><strong>&rdquo;</strong><strong> height=</strong><strong>&rdquo;</strong><strong>40</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Applet Java: dancing text</strong><strong>.</strong><strong>&rdquo;</strong><strong>&gt;</strong> </p>
+<p style="line-height:9.85pt;background:white;"><strong>If you are using a JAVA supported  web browser, you could see the text</strong><strong> </strong><strong>&ldquo;</strong><strong>To be or not to be</strong><strong>, that is the question</strong><strong>.</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>Or would be the question to be or not to be</strong><strong> ...</strong><strong>&rdquo;</strong><strong>, floating along the screen, instead of this paragraph</strong><strong>.</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;/applet&gt;</strong></p>
+<br clear="all" style="page-break-before:auto;" />
+<p ><strong>f) A textual equivalent for  ASCII art.</strong></p>
+<p ><strong>Example 1:</strong></p>
+<p >To the explanatory report of the production process, we created two graphic,  in which the existing relation can be visualized between costs and time. The ASCII graphic has more meanning to the users that have screen readers, mostly to who uses Braille line. The second graphic shows the same information, in a bitmap image created from a simple draw program. Although this last image is inaccessible to users with screen readers, we can, whoever, add a textual equivalent by using the ALT or LONGDESC attribute.</p>
+<p >Bitmap graphic </p>
+<table>
+  <tr>
+    <td valign="top" align="left" height="134"><p><img src="1.1/clip_image016.jpg" alt="grafico" width="168" height="134" /></p></td>
+  </tr>
+</table>
+<pre>
+  Art-ASCII
+
+   C  40-|         o 
+   u  30-|     o o
+   s  20-|  o o
+   t  20-| o
+   o      ------------
+           '  '  '  '
+           1  2  3  4
+              Time
+</pre>
+<p><img src="1.1/clip_image018.jpg" alt="icone de sorriso" width="267" height="133" /></p>
+<br clear="all" style="page-break-before:always;" />
+<p ><strong>Example 2:</strong></p>
+<p >If the ASCII art image has no relevant information,  use a simple description.</p>
+<p >The follwed image, made by ASCII art, is of the silhouette of a person with a hat. <u>(Jump ASCII art)</u></p>
+<p >Silhouette of a person with a hat,  made by  ASCII characters.</p>
+<p ><strong>&lt;a  href=&quot;#jump&quot;&gt; &lt;/a&gt;</strong></p>
+
+<pre>          MMMMMMMM
+      WWWWW      WWWWW
+     ******************
+        | \O/ \O/ |
+        |    |    |
+        \         /
+         \  ---  /
+           VVVVV
+            VVV</pre>
+<p ><strong>&lt;a name=&quot;jump&quot;&gt;  &lt;/a&gt;</strong></p>
+<p >Note  that the link allows to the user with a screen reader jump the ASCII and get to the subtitle.</p>
+<p ><strong>g) A textual equivalent for frames</strong></p>
+<p >Use  the TITTLE, and if necessary, the LONGDESC attribute in the FRAME element to describe more details about the frame or its relations with other frames. More information on the 12.2 and 6.5 checkpoints.</p>
+<p ><strong>Example</strong></p>
+<p style="line-height:10.1pt;background:white;"><strong>&lt;frame src=&quot;main.html&quot; <em>longdesc</em>=&quot;description.html&quot; <em>title</em>=&quot;Mainly content frame</strong><strong>&quot;&gt;</strong></p>
+<p ><strong>h) A textual equivalent for scripts</strong></p>
+<p >Use  the NOSCRIPT element to describe the action or replace the functionality of any  script that integrates that page</p>
+<p >For example, if you write a  SCRIPT that produces some animation showing a new panel everytime the user clicks on a screen region or press a key, use te NOSCRIPT element to supply  a textual alternative that describes  the whole action. For example:</p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;script type=</strong><strong>&rdquo;</strong><strong>text/javascript</strong><strong>&rdquo;</strong><strong>&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>... script to show and replace the panles according to the selection of the user</strong><strong>...</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;/script&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;noscript&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>In the first panel, Lucy holds a football ball. In the second panel,  Charlie Brown is watching the football.</strong><strong> And so forth...</strong><strong>&rdquo;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;/noscript&gt;</strong></p>
+<strong><br clear="all" style="page-break-before:always;" />
+</strong>
+<p style="line-height:9.85pt;background:white;"><strong>i) A textual equivalent to images used to replace the &quot;bullets&quot; of the lists</strong></p>
+<p >Here is a unordered list that uses graphics to replace the &quot;bullets&quot; created by the &lt;UL&gt; element :</p>
+<img src="1.1/clip_image019.gif" alt="item: " width="14" height="14"/>&nbsp;Pencil<br />
+<img src="1.1/clip_image019_0000.gif" alt="item: " width="14" height="14" />&nbsp;Telephone<br />
+<img src="1.1/clip_image019_0001.gif" alt="item: " width="14" height="14" />&nbsp;Calendar
+<p >The example, in code, shows three different ways, more appropriated, to use the  ALT attribute as subtitle for the markers.</p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;img src=&rdquo;blueball.gif&rdquo; alt=&rdquo;Item: &ldquo; /&gt; Pencial &lt;br /&gt; &lt;img src=&rdquo;blueball.gif&rdquo; alt=&rdquo;* &ldquo; /&gt; Telephone &lt;br /&gt; &lt;img  src=&rdquo;blueball.gif&rdquo; alt=&rdquo;</strong> <strong>&ldquo; /&gt; Calendar &lt;br /&gt;</strong></p>
+<ol>
+  <li>To point out the item or any other simple text, &ldquo;Item&rdquo; must be used,  especially if there are not many entrance in the list. </li>
+  <li>To provide a textual alternative identical to the bullet must use an asterisk &ldquo;*&rdquo; or a hyphen &ldquo;-&rdquo;. </li>
+  <li>To a list with a large number of items, will be more appropriated to put a blanc space between attribute quotes of the ALT. The screen reader will not read the indication &quot;Item&quot; repeatedly. </li>
+</ol>
+<p ><strong>j) A textual equivalent to the images used as spacers</strong></p>
+<p >The creation of a transparent image file is a layout trick used by many authors.  This will put blank spaces  between objects, specifying the height and width, or the HSPACE and VSPACE attributes of IMG element. The textual equivalent appropriated for a spacer is simply nothing, in other words, a blank space. So that: </p>
+<p style="line-height:22.1pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>spacer.gif</strong><strong>&rdquo;</strong><strong> hspace=&quot;100&quot; vspace=&quot;10&quot; alt=</strong><strong>&rdquo;</strong><strong> </strong><strong>&ldquo; /</strong><strong>&gt;</strong> </p>
+<p style="line-height:22.1pt;background:white;">or </p>
+<p style="line-height:22.1pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>spacer.gif</strong><strong>&rdquo;</strong><strong> width=&quot;5&quot; height=&quot;200&quot; alt=</strong><strong>&rdquo;</strong><strong> </strong><strong>&ldquo; /</strong><strong>&gt;</strong> </p>
+<p >Note that exists a blank space between quotes in the ALT attribute. We  prefer, of course, that you use CSS to define your layout.</p>
+<p ><strong>k) A textual equivalent for sounds (played with or without user iteration </strong><strong>).</strong></p>
+<p >You produced a script that causes a sound warning to be played if the visitor of your page try to send a form before the necessary fields are performed.</p>
+<p >Your program must have the capacity to write a message on the screen saying something like:</p>
+<p>&ldquo;You tryed to submit an incomplete form. Please, perform, required fields.&rdquo;</p>
+<br clear="all" style="page-break-before:always;" />
+<p ><strong>l)  A textua equivalent for audio and video files</strong></p>
+<p ><strong>Example 1: </strong></p>
+<p ><strong>&lt;a href=</strong><strong>&rdquo;</strong><strong>work-e.wav</strong><strong>&rdquo;</strong><strong>&gt;</strong> </p>
+<p style="line-height:9.85pt;background:white;"><strong>&lt;img src=</strong><strong>&rdquo;</strong><strong>audio.gif</strong><strong>&rdquo;</strong><strong> alt=</strong><strong>&rdquo;</strong><strong>Sound file: Come and join us</strong><strong>. </strong><strong>&ldquo; /</strong><strong>&gt;</strong></p>
+<p style="line-height:9.85pt;background:white;"><strong>Listen to the sound message left by the author. </strong><strong>&lt;/a&gt;</strong></p>
+<p ><strong>Example 2:</strong></p>
+<p >Insert subtitles to every audio or video media existing in your web site.</p>
+<p ><strong>Description</strong>: </p>
+<p >A  title: &ldquo;On-air  Science and Math Fair. Math is Everywhere.&rdquo; </p>
+<p ><strong>Caption</strong>: </p>
+<p >Man: Go long, way  out. </p>
+<p ><strong>Description</strong>: </p>
+<p >A man throws a  football. </p>
+<p><strong>Caption</strong>: </p>
+<p>Professor: Submitted for your consideration: the ball has been thrown,  and you want to </p>
+<p>catch it. But how do you know where it will go so you can be there when  it comes down? </p>
+<p >One way  is to use this formula. </p>
+<p ><strong>Description</strong>: </p>
+<p >The professor scribbles  numbers on a blackboard. </p>
+<p><strong>Caption</strong>: </p>
+<p style="text-align:justify;line-height:10.8pt;background:white;">It  factors in velocity, acceleration and time to calculate the distance the ball  will go. But then, you knew that. Your brain estimates all  of these values in the first seconds of the ball&rsquo;s  fight to calculate where you have to go to catch the ball. </p>
+<p ><strong>Description</strong>: </p>
+<p >A beach ball  bounces off his head. He tries to catch it. </p>
+<p><strong>Caption</strong>: </p>
+<p>This math equation helps us understand the physical world and how we  function in it. Whether you do it on the board or on the field, they both work.  So, next time you go out for that long pass, remember: Math is everywhere. </p>
+<p >Math is  everywhere! </p>
+<p ><strong>Description</strong>: </p>
+<p >A title: &ldquo;Math is Everywhere.&rdquo; </p>
+</body>
+</html>

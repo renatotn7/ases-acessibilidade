@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="help.css" rel="stylesheet" type="text/css" />
+<link href="SyntaxHighlighter.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+
+<!--
+.style4 {color: #666666}
+-->
+</style>
+</head>
+
+<body>
+<p><img src="saibamais.jpg" width="270" height="50" alt="Saiba Mais" /></p>
+<p><strong>Recomenda&ccedil;&atilde;o  1.12 - </strong>Fornecer <em>links</em> de texto redundantes relativos a  cada regi&atilde;o ativa de um mapa de imagem armazenado tanto no cliente quanto no  servidor. N&atilde;o esquecendo de adicionar  texto equivalente &agrave; imagem mostrada,no caso o &ldquo;alt&rdquo; ou &ldquo;longdesc&rdquo;. </p>
+<p>Exemplo:</p>
+<p><img src="mapaimagens.jpg" alt="mapa de imagens" width="145" height="100" /></p>
+<p><strong>No c&oacute;digo html:</strong></p>
+
+<div class="dp-highlighter">
+  <ol class="dp-j" start="1">
+    <li class="alt">&lt;img  src=&rdquo;img/imgmap1.gif&rdquo; alt=&rdquo;o texto alternativo.&rdquo;title=&rdquo;&iacute;cones&nbsp; para as se&ccedil;&otilde;es do s&iacute;tio&rdquo; usemap=&rdquo;#map1&rdquo;  border=0&gt;&nbsp;</li>
+    <li class=""> &lt;map  name=&rdquo;map1&rdquo;&gt;&nbsp; </li>
+    <li class="alt">&lt;area  coords=&rdquo;0,0,39,39&rdquo; href=&rdquo;a.htm&rdquo; alt=&rdquo;link se&ccedil;&atilde;o a do s&iacute;tio. &ldquo;&gt;</li>
+    <li class="">&lt;area coords=&rdquo;40,0,79,39&rdquo; href=&rdquo;b.htm&rdquo;  alt=&rdquo;link se&ccedil;&atilde;o b do s&iacute;tio. &ldquo;&gt;&nbsp;</li>
+    <li class="alt">&lt;/map&gt;</li>
+    <li class=""> &lt;map name=&rdquo;map2&rdquo;&gt;&nbsp; </li>
+    <li class="alt"><strong>[&lt;a href=&rdquo;a.htm&rdquo;&gt;se&ccedil;&atilde;o a&lt;/a&gt; |  &lt;a href=&rdquo;b.htm&rdquo;&gt;se&ccedil;&atilde;o b&lt;/a&gt;&nbsp;  ]</strong><strong> </strong>&nbsp;<strong>&nbsp;</strong>&lt;/map&gt; </li>
+  </ol>
+</div>
+<p>&nbsp;Observa&ccedil;&atilde;o:  o texto &ldquo;alt&rdquo; que se encontra no elemento &ldquo;img&rdquo; informa ao usu&aacute;rio que existe  um&nbsp; equivalente textual. N&atilde;o descreve, no  entanto, a imagem por si s&oacute;, para tanto, utiliza-se o&nbsp; atributo &ldquo;longdesc&rdquo;.&nbsp;</p>
+</body>
+</html>

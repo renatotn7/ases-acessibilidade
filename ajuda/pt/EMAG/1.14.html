@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="help.css" rel="stylesheet" type="text/css" />
+<link href="SyntaxHighlighter.css" rel="stylesheet"
+type="text/css" />
+<style type="text/css">
+
+<!--
+.style4 {color: #666666}
+-->
+</style>
+</head>
+<body>
+<p><img src="saibamais.jpg" width="270" height="50"
+alt="Saiba Mais" /></p>
+
+<p><strong>Recomenda&ccedil;&atilde;o 1.14</strong> - Em tabelas de
+dados com dois ou mais n&iacute;veis l&oacute;gicos de
+cabe&ccedil;alhos, <strong>&nbsp;</strong>sejam de linha ou de
+coluna, utilizar marca&ccedil;&otilde;es para associar as
+c&eacute;lulas de dados &agrave;s c&eacute;lulas&nbsp; de
+cabe&ccedil;alho. Organize tabelas complexas de forma que possa
+identificar facilmente suas divis&otilde;es.</p>
+
+<p>A tabela seria mostrada da seguinte maneira no
+navegador:</p>
+
+<div class="caixa2">
+<table border="1" cellpadding="2" cellspacing="3">
+<caption>Despesas de Viagem (custo actual, euros)</caption>
+
+<thead>
+<tr>
+<th>
+<p><span id="t-l1">VIAGEM</span>,<br />
+ <span id="t-l2">data</span></p>
+</th>
+<th scope="column">Refei&ccedil;&otilde;es</th>
+<th scope="column">Alojamento</th>
+<th scope="column">Trans.</th>
+<th scope="column">Total</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<th scope="rowgroup" headers="t-l1">Lisboa</th>
+</tr>
+
+<tr>
+<td scope="row" headers="t-l2">25 Ago 97</td>
+<td>37.74</td>
+<td>112.00</td>
+<td>45.00</td>
+</tr>
+
+<tr>
+<td scope="row" headers="t-l2">26 Ago 97</td>
+<td>27.28</td>
+<td>112.00</td>
+<td>45.00</td>
+</tr>
+
+<tr>
+<td scope="row">Subtotal</td>
+<td>65.02</td>
+<td>224.00</td>
+<td>90.00</td>
+<td>379.02</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<th scope="rowgroup" headers="t-l1">Porto</th>
+</tr>
+
+<tr>
+<td scope="row" headers="t-l2">27 Ago 97</td>
+<td>96.25</td>
+<td>109.00</td>
+<td>36.00</td>
+</tr>
+
+<tr>
+<td scope="row" headers="t-l2">28 Ago 97</td>
+<td>35.00</td>
+<td>109.00</td>
+<td>36.00</td>
+</tr>
+
+<tr>
+<td scope="row">Subtotal</td>
+<td>131.25</td>
+<td>218.00</td>
+<td>72.00</td>
+<td>421.25</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="clear:both"></p>
+<p style="clear:both">&nbsp;&nbsp;A seguir o c&oacute;digo a ser utilizado:</p>
+
+
+<div class="dp-highlighter">
+<ol class="dp-j" start="1">
+<li class="alt">&lt;table border=&rdquo;1&rdquo; cellpadding=2
+cellspacing=3&gt;&nbsp;</li>
+
+<li class="">&lt;caption&gt;Despesas de Viagem (custo actual,
+euros)&lt;/caption&gt;&nbsp;</li>
+
+<li class="alt">&lt;thead&gt; &lt;tr&gt;&nbsp;</li>
+
+<li class="">&lt;th&gt;&lt;p&gt;&lt;span
+id=&rdquo;t-l1&rdquo;&gt;VIAGEM&lt;/span&gt;,&lt;br&gt;&nbsp;&nbsp;
+&lt;span id=&rdquo;t-l2&rdquo;&gt;
+data&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&nbsp;</li>
+
+<li class="alt">&lt;th
+scope=&rdquo;column&rdquo;&gt;Refei&ccedil;&otilde;es&lt;/th&gt;&nbsp;&nbsp;
+&lt;th
+scope=&rdquo;column&rdquo;&gt;Alojamento&lt;/th&gt;&nbsp;</li>
+
+<li class="">&lt;th
+scope=&rdquo;column&rdquo;&gt;&lt;abbr=&rdquo;Transporte&rdquo;&gt;Trans.&lt;/abbr&gt;&lt;/th&gt;&nbsp;&nbsp;
+&lt;th scope=&rdquo;column&rdquo;&gt;Total&lt;/th&gt;&nbsp;</li>
+
+<li class="alt">&lt;/tr&gt; &lt;/thead&gt;&nbsp;&nbsp;
+&lt;tbody&gt;&nbsp;</li>
+
+<li class="">&lt;tr&gt; &lt;th scope=&rdquo;rowgroup&rdquo;
+headers=&rdquo;t-l1&rdquo;&gt;Lisboa&lt;/th&gt;&nbsp;&nbsp;
+&lt;/tr&gt; &lt;tr&gt;&nbsp;</li>
+
+<li class="alt">&lt;td scope=&rdquo;row&rdquo;
+headers=&rdquo;t-l2&rdquo;&gt; 25 Ago 97&lt;/td&gt;&nbsp;&nbsp;
+&lt;td&gt;37.74&lt;/td&gt; &lt;td&gt;112.00&lt;/td&gt;
+&lt;td&gt;45.00&lt;/td&gt;&nbsp;&nbsp; &lt;/tr&gt;
+&lt;tr&gt;&nbsp;</li>
+
+<li class="">&lt;td scope=&rdquo;row&rdquo;
+headers=&rdquo;t-l2&rdquo;&gt; 26 Ago 97&lt;/td&gt;&nbsp;&nbsp;
+&lt;td&gt;27.28&lt;/td&gt; &lt;td&gt;112.00&lt;/td&gt;
+&lt;td&gt;45.00&lt;/td&gt;&nbsp;&nbsp; &lt;/tr&gt;
+&lt;tr&gt;&nbsp;</li>
+
+<li class="alt">&lt;td
+scope=&rdquo;row&rdquo;&gt;Subtotal&lt;/td&gt;&nbsp;&nbsp;</li>
+
+<li class="">&lt;td&gt;65.02&lt;/td&gt; &lt;td&gt;224.00&lt;/td&gt;
+&lt;td&gt;90.00&lt;/td&gt; &lt;td&gt;379.02&lt;/td&gt;&nbsp;&nbsp;
+&lt;/tr&gt; &lt;/tbody&gt; &lt;tbody&gt; &lt;tr&gt;&nbsp;</li>
+
+<li class="alt">&lt;th scope=&rdquo;rowgroup&rdquo;
+headers=&rdquo;t-l1&rdquo;&gt;Porto&lt;/th&gt;&nbsp;&nbsp;
+&lt;/tr&gt; &lt;tr&gt;&nbsp;</li>
+
+<li class="">&lt;td scope=&rdquo;row&rdquo;
+headers=&rdquo;t-l2&rdquo;&gt; 27 Ago 97&lt;/td&gt;&nbsp;&nbsp;
+&lt;td&gt;96.25&lt;/td&gt; &lt;td&gt;109.00&lt;/td&gt;
+&lt;td&gt;36.00&lt;/td&gt;&nbsp;&nbsp; &lt;/tr&gt;
+&lt;tr&gt;&nbsp;</li>
+
+<li class="alt">&lt;td scope=&rdquo;row&rdquo;
+headers=&rdquo;t-l2&rdquo;&gt; 28 Ago 97&lt;/td&gt;&nbsp;&nbsp;
+&lt;td&gt;35.00&lt;/td&gt; &lt;td&gt;109.00&lt;/td&gt;
+&lt;td&gt;36.00&lt;/td&gt;&nbsp;&nbsp; &lt;/tr&gt;
+&lt;tr&gt;&nbsp;</li>
+
+<li class="">&lt;td
+scope=&rdquo;row&rdquo;&gt;Subtotal&lt;/td&gt;</li>
+
+<li class="alt">&lt;td&gt;131.25&lt;/td&gt;
+&lt;td&gt;218.00&lt;/td&gt; &lt;td&gt;72.00&lt;/td&gt;
+&lt;td&gt;421.25&lt;/td&gt;&nbsp;&nbsp; &lt;/tr&gt;
+&lt;/tbody&gt;</li>
+
+<li class=""><span class="alt">&lt;/table&gt;</span></li>
+</ol>
+</div>
+
+<p>Nota: no caso de utilizar tabelas para formatar p&aacute;ginas
+(em vez de CSS), ent&atilde;o N&Atilde;O deve usar&nbsp;<br />
+a nota&ccedil;&atilde;o existente para tabelas de dados - como
+&ldquo;th&rdquo;, &ldquo;thead&rdquo;, &ldquo;tbody&rdquo;,
+&ldquo;scope&rdquo;, &ldquo;colgroup&rdquo;, etc&nbsp; - pois
+s&atilde;o elementos utilizados para identificar e manipular os
+dados.&nbsp;</p>
+</body>
+</html>

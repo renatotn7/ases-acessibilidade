@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br"><!-- InstanceBegin template="/Templates/ini_ferramenta.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Manual da Ferramenta ASES</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<link href="estilo.css" rel="stylesheet" type="text/css" />
+<script src="extras/acessibilidade.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="barrazoom">
+		<a href="javascript:void(0);" onkeypress="zoom('mais');" onclick="zoom('mais');"><img src="extras/Amais.gif" alt="Aumenta o texto" style="position:relative;z-index:10;" /></a>
+		<a href="javascript:void(0);" onkeypress="zoom('menos');" onclick="zoom('menos');"><img src="extras/Amenos.gif" alt="Diminui o texto" style="position:relative;z-index:11;" /></a>
+		<a href="javascript:void(0);" onkeypress="zoom('padrao');" onclick="zoom('padrao');"><img src="extras/Anormal.gif" alt="Texto Normal" style="position:relative;z-index:12;" /></a>
+		<a href="javascript:void(0);" onkeypress="setActiveStyleSheet('branco_e_preto_acessivel');" onclick="setActiveStyleSheet('branco_e_preto_acessivel');"><img id="Obp" src="extras/Obp.gif" alt="Auto-Contraste 1" style="position:relative;z-index:13;" /></a>
+		<a href="javascript:void(0);" onkeypress="setActiveStyleSheet('preto_e_branco_acessivel');" onclick="setActiveStyleSheet('preto_e_branco_acessivel');"><img id="Opb" src="extras/Opb.gif" alt="Auto-Contraste 2" style="position:relative;z-index:14;" /></a>	</div>
+	<h1>
+	<!-- InstanceBeginEditable name="titulo" -->M&oacute;dulo Validador 
+	<!-- InstanceEndEditable -->
+	</h1>
+	<div id="wrap">
+		<div id="breadcrumb">
+		Onde estou: 
+		<!-- InstanceBeginEditable name="breadcrumb" -->
+		<a href="indice.html"> Índice </a> -	<a href="manual.html">Manual</a> - Avaliador	de Acessibilidade para WEB	<!-- InstanceEndEditable -->		</div>
+		<div id="conteudo">
+			<div id="tit_ferramenta">
+			<!-- InstanceBeginEditable name="titulo_ferramenta" -->Avaliador de Acessibilidade<br />
+			para WEB<!-- InstanceEndEditable -->
+			</div>
+			<div id="desc_ferramenta">
+				<p>
+				<!-- InstanceBeginEditable name="desc_ferramenta" -->
+				  Confere a p&aacute;gina de acordo com as normas de acessibilidade do W3C/EMAG.
+			<!-- InstanceEndEditable -->
+				</p>
+			</div>
+			<div id="img_ferramenta">
+				<!-- InstanceBeginEditable name="img_ferramenta" --><img src="images/w3c.jpg" alt="w3c" width="250" height="187" />				<!-- InstanceEndEditable -->
+			</div>
+		</div>
+		<div class="ferr_conteudo">
+			<!-- InstanceBeginEditable name="conteudo" -->
+			<p><strong>Tipo de Avalia&ccedil;&atilde;o: </strong></p>
+			<ul>
+			  <li>Voc&ecirc; pode escolher entre avaliar seguindo as regras do WCAG ou E-Mag. </li>
+            </ul>
+			<p><strong>N&iacute;veis a Avaliar:</strong></p>
+			<ul>
+			  <li>N&iacute;vel 1: Avalia apenas 1 n&iacute;vel de diret&oacute;rio.</li>
+		      <li>N&iacute;vel 2: Avalia apenas 2 n&iacute;veis de diret&oacute;rio.</li>
+			  <li>N&iacute;vel 3: Avalia apenas 3 n&iacute;veis de diret&oacute;rio.</li>
+			  <li>Site: Avalia todas as p&aacute;ginas do site.</li>
+			  <li>P&aacute;gina: Avalia apenas a p&aacute;gina indicada.</li>
+			  <li>Arquivo: Avalia apenas o arquivo desejado.</li>
+			  <li>Diret&oacute;rio: Avalia todas as p&aacute;ginas do diret&oacute;rio selecionado.</li>
+		    </ul>
+			<p><strong>N&iacute;vel de Prioridades:</strong></p>
+			<ul>
+			  <li><strong>Prioridade 1:</strong> Pontos que os criadores de conte&uacute;do Web devem satisfazer inteiramente. Se n&atilde;o o fizerem, um ou mais grupos de usu&aacute;rios ficar&atilde;o impossibilitados de acessar as informa&ccedil;&otilde;es contidas no documento. A satisfa&ccedil;&atilde;o desse tipo de pontos &eacute; um requisito b&aacute;sico para que determinados grupos possam acessar documentos dispon&iacute;veis na Web.  </li>
+		      <li>	<strong>Prioridade 2:</strong> Pontos que os criadores de conte&uacute;dos na Web deveriam satisfazer. Se n&atilde;o o fizerem, um ou mais grupos de usu&aacute;rios ter&atilde;o dificuldades em acessar as informa&ccedil;&otilde;es contidas no documento. A satisfa&ccedil;&atilde;o desse tipo de pontos promover&aacute; a remo&ccedil;&atilde;o de barreiras significativas ao acesso a documentos dispon&iacute;veis na Web.</li>
+			  <li>	<strong>Prioridade 3:</strong> Pontos que os criadores de conte&uacute;dos na Web podem satisfazer. Se n&atilde;o o fizerem, um ou mais grupos poder&atilde;o se deparar com algumas dificuldades em acessar informa&ccedil;&otilde;es contidas nos documentos. A satisfa&ccedil;&atilde;o deste tipo de pontos melhorar o acesso a documentos armazenados na Web.</li>
+		    </ul>
+			<p><strong>URL:</strong></p>
+			<ul>
+			  <li>Endere&ccedil;o do site que se deseja avaliar. </li>
+		    </ul>
+			<p><br />
+		      <img src="images/avaliador_acessibilidade.jpg" alt="Avaliador de acessibilidade" width="600" height="432" />		</p>
+			<p><br />
+			
+			<p><strong>Resumo do Relat&oacute;rio:</strong></p>
+				<ul>
+					<li><strong>Continuar:</strong> Este bot&atilde;o &eacute; responsável por continuar uma avalia&ccedil;&atilde;o previamente interrompida e salva (*.ASES), ou para recome&ccedil;ar uma avalia&ccedil;&atilde;o que tenha sido simplesmente pausada.</li>
+					<li><strong>Pausar:</strong> Serve para suspender uma avalia&ccedil;&atilde;o. Para continuar de onde parou, basta clicar em "Continuar".</li>
+					<li><strong>Retroceder todas:</strong> Retrocede à primeira página da tabela de erros.</li>
+					<li><strong>Retroceder uma:</strong> Retrocede à página de erros imediatamente anterior.</li>
+					<li><strong><i>Drop down</i>:</strong> Este <i>drop down</i> &eacute; um contador de páginas avaliadas. Clique sobre ele para localizar uma página específica.</li>
+					<li><strong>Avan&ccedil;ar uma:</strong> Avan&ccedil;&atilde;a para a página subsequente a atual.</li>
+					<li><strong>Avan&ccedil;ar todas:</strong> Avan&ccedil;&atilde;a ao final da avalia&ccedil;&atilde;o, a última página avaliada.</li>
+					<li><strong>N&atilde;o Avaliadas:</strong> Bot&atilde;o que apresenta um relat&oacute;rio de todas as páginas n&atilde;o avaliadas.</li>
+					<li><strong>Finalizar:</strong> Finaliza uma avalia&ccedil;&atilde;o em andamento. O Usuário &eacute; perguntado se deseja salvá-la antes de terminá-la.</li>
+				</ul>
+				
+				<p><strong>Barras de progresso:</strong></p>
+					<ul>
+						<li><strong>Avalia&ccedil;&atilde;o Total:</strong> Exibe a porcentagem de quanto da página/sítio foi avaliado at&eacute; o momento.</li>
+						<li><strong>Página Atual:</strong> Este se aplica a vali&ccedil;&atilde;ões com mais de uma página. Exibe a porcentagem a página que está sendo avaliada.</li>
+					</ul>
+				<p><strong>Barra de Velocidade:</strong> Atrav&eacute;s deste bot&atilde;o o usuário pode, se diminur a velocidade, liberar recursos do seu computador, em detrimento da velocidade de avali&ccedil;&atilde;o. Geralmente usado quando se quer realizar várias tarefas simultaneamente, em conjunto com a avalia&ccedil;&atilde;o de um sítio. Ela tamb&eacute;m limita a banda de <i>downloading</i> de páginas avaliadas pelo ASES, deixando o usuário navegar sem problemas se possuir conexões de baixa velocidade.</p>
+							
+		      <img src="images/resumo_relatorio.jpg" alt="Avaliador de acessibilidade" width="600" height="432" />		</p>
+			<p><br />
+			
+			<p><strong>Relat&oacute;rio da URL: Exibe uma tabela contendo erros encntrado na URL referida.</strong> </p>
+				<p><strong>C&oacute;digo Fonte:</strong></p>
+				<ul>
+					<li>C&oacute;digo em Edi&ccedil;&atilde;o:</li> É exibido o c&oacute;digo fonte editável, como um editor de HTML.
+					<li>C&oacute;digo Original:</li> Exibe o c&oacute;digo original, apenas para compara&ccedil;&atilde;o, pois este n&atilde;o &eacute; editável.
+				</ul>
+				<p><strong>Abas de Erros e Avisos:</strong></p>
+					<ul>
+						<li>Exibe erros e avisos encontrados no c&oacute;digo em uma tabela. Os erros/prioridades variam de grau 1 a 3, dependendo da regra do W3C ou E-MAG que foi infringida. Para o usuário ter acesso ao erro/aviso encontrado basta clicar sobre o número corresponde à linha para ser levado, na tela do c&oacute;digo fonte editável, at&eacute; o erro.</li>
+						<li>Colunas da tabela de erros/avisos:</li>
+							<ul>
+								<li>P.V.: Ponto de Verifica&ccedil;&atilde;o - Indica que regra do E-MAG/WCAG foi infringida.</li>
+								<li>CASOS GERAIS: Uma breve descri&ccedil;&atilde;o do erro encontrado.</li>
+								<li>OCORR&Ecirc;NCIAS: A quantidade de vezes que determinada regra foi infringida.</li>
+								<li>LINHAS: As linhas que possuem erros. Ao clicar sobre elas, o usuário &eacute; levado at&eacute; sua ocorrência no c&oacute;digo.</li>
+							</ul>
+					</ul>
+				<p><strong>Tela Anterior:</strong> Retorna à tela anterior a este avaliador.</p>				
+				<p><strong>Reverter:</strong> Recarrega o c&oacute;digo original, sem edi&ccedil;&atilde;o alguma.</p>
+				<p><strong>Saiba Mais:</strong> É um quadro de dicas e esclarecimentos a respeito de cada erro encontrado, de acordo com o E-MAG.</p>				
+				
+		      <img src="images/relatorio_url.jpg" alt="Avaliador de acessibilidade" width="600" height="432" />		</p>  
+			<!-- InstanceEndEditable -->
+		</div>
+	</div>
+	<div id="rodape">
+	<!-- InstanceBeginEditable name="paginacao" -->
+	<a href="manual.html"><img src="images/seta_esq.gif" alt="Página anterior" border="0" /></a>  
+	  <a href="avaliador_css.html"><img src="images/seta_dir.gif" alt="Próxima página" border="0" /></a>
+	  <!-- InstanceEndEditable -->
+	<hr color="#000000" size="5" />
+	  <img src="images/ases.gif" alt="ASES - Avaliador e Simulador para AcessibilidadE de S&iacute;tios" width="203" height="73" align="right" /><img src="images/acessobrasil.gif" alt="Acessibilidade Brasil" border="0" /></a> <img src="images/gov.gif" alt="gov.br - mais governo, mais cidadania" width="185" height="81" /></div>
+</body>
+<!-- InstanceEnd --></html>

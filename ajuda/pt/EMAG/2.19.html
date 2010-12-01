@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="SyntaxHighlighter.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<p><img src="saibamais.jpg" width="270" height="50"
+alt="Saiba Mais" /></p>
+<p><strong>Recomenda&ccedil;&atilde;o 2.19 - </strong>Em programas interpret&aacute;veis,  especificar respostas a eventos, <strong> </strong>preferindo as rotinas dependentes de dispositivos (<em>mouse</em>, teclado, etc). </p>
+<ul>
+  <li>Use &ldquo;onmousedown&rdquo; com &ldquo;onkeydown&rdquo;.</li>
+  <li>    Use &ldquo;onmouseup&rdquo; com  &ldquo;onkeyup&rdquo;.</li>
+  <li> Use &ldquo;onclick&rdquo; com &ldquo;onkeypress&rdquo;.</li>
+  <li> Use &ldquo;onmouseover&rdquo; com &ldquo;onfocus&rdquo;.</li>
+  <li>    Use &ldquo;onmouseout&rdquo; com &ldquo;onblur&rdquo;.<br />
+  </li>
+</ul>
+<p>Note  que n&atilde;o existe equivalente de teclado para duplo-click (&ldquo;ondblclick&rdquo;) em HTML  4.0. </p>
+<p>Utilize eventos independentes do dispositivo, que  trabalhem com qualquer a&ccedil;&atilde;o de entrada   apropriada, no caso, &ldquo;onfocus&rdquo; trabalha com o teclado e com o <em>mouse</em>, e &eacute; por isso  considerado um evento independente do  dispositivo.  </p>
+<p>Exemplo 1:  </p>
+<div class="dp-highlighter">
+  <ol class="dp-j" start="1">
+    <li class="alt"><span>&lt;button onfocus=&quot;pop1()&quot;&gt; Ganhe um  pr&ecirc;mio!&lt;/button&gt;</span></li>
+    <li class=""><span>&lt;script type=&quot;text/javascript&quot;&gt; function pop1() { alert  (&quot;Mensagem sobre o Pr&ecirc;mio!&quot;) }&lt;/script&gt; </span></li>
+    <li class="alt"><span>&lt;noscript&gt;Mensagem sobre o   Pr&ecirc;mio!&lt;/noscript&gt;</span></li>
+  </ol>
+</div>
+<p>O  exemplo acima o bot&atilde;o &eacute; ativado com o <em>script</em>, ao clicar nele ou usar TAB uma  pequena  caixa de alerta surgir&aacute; contendo  uma mensagem sobre o pr&ecirc;mio. Pressionando a tecla  &ldquo;escape&rdquo; far&aacute; com que a mesma desapare&ccedil;a. </p>
+<p>Em alguns casos deve-se usar mais de um evento,  quando este for dependente de dispositivo:   &ldquo;onclick&rdquo; requer mouse, enquanto que &ldquo;onkeypress&rdquo; requer teclado.   Ambos s&atilde;o dependentes de dispositivos, mas a  sua inclus&atilde;o vai permitir a qualquer um   beneficiar-se da t&eacute;cnica.  </p>
+<p>Exemplo 2: </p>
+<div class="dp-highlighter">
+  <ol class="dp-j" start="1">
+    <li class="alt"><span>&lt;button onclick=&rdquo;pop2()&rdquo; onkeypress=&rdquo;pop2()&rdquo;&gt;   Ganhar um pr&ecirc;mio diferente!&lt;/button&gt;.</span></li>
+    <li class=""><span>&lt;script language=&rdquo;javascript&rdquo;  type=&rdquo;text/javascript&rdquo;&gt;function pop2() { window.open  (premio.htm) } &lt;/script&gt; </span></li>
+    <li class="alt"><span>&lt;noscript&gt;&lt;a  href=&rdquo;cadastro.htm&rdquo;&gt;Cadastre-se agora!&lt;/a&gt;&lt;/noscript&gt;</span></li>
+  </ol>
+</div>
+<p>Neste  exemplo o bot&atilde;o &eacute;  ativado pelo comando de teclado e tamb&eacute;m pelo clique do  mouse. <br />
+</p>
+</body>
+</html>

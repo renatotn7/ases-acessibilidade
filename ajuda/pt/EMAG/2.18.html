@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="SyntaxHighlighter.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<p><img src="saibamais.jpg" width="270" height="50"
+alt="Saiba Mais" /></p>
+<!-- Erro duplicado, a regra 1.19 o texto inicial e identico, os exemplos sao diferentes -->
+<p><strong>Recomenda&ccedil;&atilde;o 2.18 - </strong>Assegure a acessibilidade de objetos  programados, tais como programas interpret&aacute;veis e <em>applets</em>, garantindo que a resposta a  eventos seja independente do  dispositivo  de entrada e que qualquer elemento dotado de interface pr&oacute;pria possa  funcionar  com qualquer leitor de tela ou  navegador que o usu&aacute;rio utilize. Evite colocar scripts que  estejam vinculados a <em>links</em>. Se isso n&atilde;o for poss&iacute;vel, forne&ccedil;a  informa&ccedil;&otilde;es equivalentes em uma  p&aacute;gina  alternativa acess&iacute;vel. </p>
+<p>Se  um <em>applet</em> (geralmente criado por &ldquo;object&rdquo;, &ldquo;flash&rdquo; ou  &ldquo;applet&rdquo;) requerer a intera&ccedil;&atilde;o do   usu&aacute;rio que n&atilde;o possa ser duplicada num formato alternativo,  recomenda-se que  o pr&oacute;prio <em>applet</em> seja acess&iacute;vel. </p>
+<p>A  acessibilidade de objetos com a sua pr&oacute;pria interface &eacute; independente da  acessibilidade do  agente de usu&aacute;rio. A  acessibilidade deve por isso ser constru&iacute;da nos objetos ou ser fornecida  de forma alternativa. Se voc&ecirc; &eacute; programador,  deve estar consciente dos recursos dispon&iacute;veis   que o ajudam a verificar se os seus programas s&atilde;o acess&iacute;veis. </p>
+<p>Mantenha-se  informado sobre as &uacute;ltimas atualiza&ccedil;&otilde;es das linguagens utilizadas,  provavelmente  elas evoluir&atilde;o de forma a  contemplar a acessibilidade. </p>
+<p>Exemplo com um objeto em Flash:  </p>
+<div class="dp-highlighter">
+  <ol class="dp-j" start="1">
+    <li class="alt"><span>&lt;object type=&quot;application/x-shockwave-flash&quot; data=&quot;http://seusite.com/seuarquivo.swf&quot; 
+width=&quot;400&quot; height=&quot;326&quot; id=&quot;VideoPlayback&quot;&gt;</span></li>
+    <li class=""><span> &nbsp; &lt;param name=&quot;movie&quot;
+value=&rdquo;http://seusite.com/seuarquivo.swf&rdquo; /&gt; </span></li>
+    <li class="alt"><span> &nbsp; &lt;param name=&quot;allowScriptAcess&quot; value=&quot;sameDomain&quot; /&gt;</span></li>
+    <li class=""><span> &nbsp; &lt;param name=&quot;quality&quot; value=&quot;best&quot; /&gt;</span></li>
+	<li class="alt"><span> &nbsp; &lt;param name=&quot;bgcolor&quot; value=&quot;#FFFFFF&quot; /&gt;</span></li>
+	<li class=""><span> &nbsp; &lt;param name=&quot;FlashVars&quot; value=&quot;playerMode=embedded&quot; /&gt;</span></li>
+	<li class="alt"><span> &nbsp; Descri&ccedil;&atilde;o do seu arquivo.</span></li>
+	<li class=""><span>&lt;/object&gt;</span></li>
+  </ol>
+</div>
+<p>Nem  todos os usu&aacute;rios t&ecirc;m computadores que disponham de <em>mouse</em> ou outros dispositivos  parecidos. Alguns usu&aacute;rios dependem do  teclado comum, teclados alternativos ou microfone  para utilizar o computador. Por exemplo, o  acesso via teclado a <em>links</em> e controles de formul&aacute;rio  pode ser especificado de algumas maneiras,  tais como:  </p>
+<p>Por  atalhos de teclado: Atalhos de teclado permitem aos usu&aacute;rios combinar teclas de  atalho  para navegar nos <em>links</em> e nos controles de formul&aacute;rio numa  p&aacute;gina. As teclas de atalho podem  ser  modificadas de acordo com os diferentes sistemas operacionais, residindo a  diferen&ccedil;a  essencialmente na seq&uuml;&ecirc;ncia de  teclas a executar para ativar o atalho. Nas m&aacute;quinas com  sistema Windows, as teclas &ldquo;alt&rdquo; e &ldquo;ctrl&rdquo; s&atilde;o  vulgarmente as teclas eleitas; no Macintosh, as   teclas &ldquo;ma&ccedil;&atilde;&rdquo; ou &ldquo;command&rdquo;. </p>
+<p>Pela  ordem dos Tabs: A ordem dos &ldquo;tabs&rdquo; descreve a (logicamente) ordem de navega&ccedil;&atilde;o  de  <em>link</em> para <em>link </em>ou de um campo de  formul&aacute;rio para outro campo, usualmente pressionando a tecla &ldquo;tab&rdquo;. Teste o seu site navegando somente com a tecla  &ldquo;tab&rdquo;, para avan&ccedil;ar de <em>link</em> em  <em>link</em>, para retornar utilize &ldquo;shift + tab&rdquo;.  </p>
+<p>Embutindo-se nas interfaces de <em>software</em>, controles independentes de  dispositivos de  <em>hardware</em>: Alguns elementos existentes em  objetos cujas interfaces n&atilde;o possam ser controladas por nenhuma linguagem de nota&ccedil;&atilde;o. Por exemplo,  em HTML: <em>applets</em>, leitores de   multim&iacute;dia ou Flash. Os desenvolvedores devem certificar-se que os  objetos importados (por si  s&oacute;) forne&ccedil;am  interfaces acess&iacute;veis; ou que, pelo menos, exista uma alternativa que o fa&ccedil;a. </p>
+</body>
+</html>
