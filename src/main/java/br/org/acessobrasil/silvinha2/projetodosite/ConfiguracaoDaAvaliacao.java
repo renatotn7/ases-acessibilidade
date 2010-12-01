@@ -253,7 +253,6 @@ public class ConfiguracaoDaAvaliacao {
 
 	/**
 	 * Faz um xml com as informações da Avaliação
-	 * 
 	 * @return
 	 */
 	private Document serializarXml() {

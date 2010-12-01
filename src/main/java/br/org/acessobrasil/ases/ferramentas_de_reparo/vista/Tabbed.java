@@ -52,7 +52,6 @@ public class Tabbed extends SuperTabbed{
 	@Override
 	public void avaliaArq(G_File temp) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override

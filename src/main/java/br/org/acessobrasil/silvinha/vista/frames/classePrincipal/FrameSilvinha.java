@@ -185,10 +185,6 @@ public class FrameSilvinha extends JFrame implements OnComboBoxEdited {
 		this.setBackground(corDefault);
 	}
 
-	
-	
-	
-
 	public void inicializacaoSilvinhaWindowListener() {
 
 		// CONFIGURA O LISTENER QUE FICARÁ ENCARREGADO DO ENCERRAMENTO DO

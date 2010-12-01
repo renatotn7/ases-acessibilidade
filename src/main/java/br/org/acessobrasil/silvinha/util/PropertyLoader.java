@@ -33,13 +33,27 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Properties;
+
+import org.apache.commons.io.FileUtils;
 /**
  * Carrega os arquivos de propriedades 
- *
  */
 public class PropertyLoader {
-
 	private static String path = "config";
+	private static File configPath;
+	
+	static{
+		File f = new File(System.getProperty("user.home"),".ases2");
+		configPath = new File(f, "config");
+		if(!configPath.exists()){
+			configPath.mkdirs();
+		}
+		try {
+			FileUtils.copyDirectory(new File("config"),configPath);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	public static final String SILVINHA_LANGUAGE = "lang";
 
@@ -64,7 +78,7 @@ public class PropertyLoader {
 						+ "# Criação: 29/11/05 - 17:20" 
 						+ "# Autor: Danniel Nascimento";
 		String fileName = o.getClass().getSimpleName().toLowerCase();
-		File arquivoPropriedades = new File(path + "/" + fileName + ".properties");
+		File arquivoPropriedades = new File(configPath , fileName + ".properties");
 		OutputStream out = new FileOutputStream(arquivoPropriedades);
 		p.store(out, comments);
 	}
@@ -81,7 +95,7 @@ public class PropertyLoader {
 						+ "# Criação: 29/11/05 - 17:20" 
 						+ "# Autor: Danniel Nascimento";
 		String fileName = nome.toLowerCase();
-		File arquivoPropriedades = new File(path + "/" + fileName + ".properties");
+		File arquivoPropriedades = new File(configPath , fileName + ".properties");
 		OutputStream out = new FileOutputStream(arquivoPropriedades);
 		p.store(out, comments);
 	}
@@ -110,9 +124,7 @@ public class PropertyLoader {
 
 	private Properties getPropertyFile(String fileName) throws FileNotFoundException, IOException {
 		Properties prop = new Properties();
-		// File arquivoPropriedades = new File(loadResource(path + "/" +
-		// fileName + ".properties"));
-		File arquivoPropriedades = new File(path + "/" + fileName + ".properties");
+		File arquivoPropriedades = new File(configPath , fileName + ".properties");
 		FileInputStream in = new FileInputStream(arquivoPropriedades);
 		prop.load(in);
 		in.close();
